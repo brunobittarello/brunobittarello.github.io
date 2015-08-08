@@ -105,8 +105,9 @@ namespace Assets.Scripts
             }
             else
             {
-                DierctionBothBoosters(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+                DierctionBothBoosters(-Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
             }
+            //Rotate();
             ConsumeFuel(0.5f, 0.5f);
             UpdateJetPack(Input.GetAxis("RightTurbine"), Input.GetAxis("LeftTurbine"));
             RigidBody.AddRelativeForce(Vector3.up * 20);
@@ -196,7 +197,7 @@ namespace Assets.Scripts
 
         void Rotate()
         {
-            transform.rotation *= Quaternion.AngleAxis(Input.GetAxis("RotateCharacter") * RotationVelocity, Vector3.up);
+            transform.localRotation *= Quaternion.AngleAxis(-Input.GetAxis("Horizontal"), Vector3.forward);
         }
 
         void ConsumeFuel(float rightPower, float leftPower)
