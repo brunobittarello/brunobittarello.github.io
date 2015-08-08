@@ -24,6 +24,15 @@ namespace Assets.Scripts
         public float RotationVelocity;
 
         public float MaxVelocity;
+        public float TerminalVelocity;
+
+        public float FuelRecoveryFactor;
+        public float FuelConsumeFactor;
+        public float FuelRecoveryDelay;
+        float Fuel;
+        float FuelTimer;
+
+        public bool TurboMode;
 
 
         public JetPackControll2()
@@ -34,72 +43,114 @@ namespace Assets.Scripts
             TurbineMaxForce = 5;
             RotationVelocity = 3;
             MaxVelocity = 70;
+            TerminalVelocity = 40;
+
+            FuelRecoveryFactor = 0.2f;
+            FuelConsumeFactor = 0.1f;
+            FuelRecoveryDelay = 2;
         }
 
-        // Use this for initialization
         void Start()
         {
             ThirdPersonCharacter = GetComponent<CustomThirdPersonCharacter>();
             RigidBody = GetComponent<Rigidbody>();
         }
 
-        // Update is called once per frame
         void FixedUpdate()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+                ToggleMode();
+
+            if (TurboMode)
+                UpdateTurboMode();
+            else
+                UpdateHoverMode();
+
+            VerifyMaxVelocity();
+            RecoverFuel();
+            UIDebugger.Fuel = Fuel;
+        }
+
+        void ToggleMode()
+        {
+            TurboMode = !TurboMode;
+            var angles = transform.localRotation.eulerAngles;
+            if (TurboMode)
+            {
+                angles.x = 70;
+                transform.localRotation = Quaternion.Euler(angles);
+                GetComponent<CustomThirdPersonUserControl>().enabled = false;
+                GetComponent<CustomThirdPersonCharacter>().enabled = false;
+            }
+            else
+            {
+                angles.x = 0;
+                transform.localRotation = Quaternion.Euler(angles);
+                GetComponent<CustomThirdPersonCharacter>().enabled = true;
+                GetComponent<CustomThirdPersonUserControl>().enabled = true;
+            }
+        }
+
+        void UpdateTurboMode()
+        {
+            if (ThirdPersonCharacter.m_IsGrounded || Fuel <= 0)
+            {
+                ToggleMode();
+                return;
+            }
+
+            if (Input.GetAxis("RotateCharacter") != 0)
+            {
+                DierctionBothBoosters(Input.GetAxis("RotateCharacter"), 0);
+            }
+            else
+            {
+                DierctionBothBoosters(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+            }
+            ConsumeFuel(0.5f, 0.5f);
+            UpdateJetPack(Input.GetAxis("RightTurbine"), Input.GetAxis("LeftTurbine"));
+            RigidBody.AddRelativeForce(Vector3.up * 20);
+            RigidBody.AddForce(Vector3.up * 40);
+        }
+
+        void UpdateHoverMode()
         {
             if (ThirdPersonCharacter.m_IsGrounded)
             {
                 if (ThirdPersonCharacter.m_Rigidbody.velocity.magnitude > 1)
-                {
-                    Direction(0, 1, TurbineLeft);
-                    Direction(0, 1, TurbineRight);
-                }
+                    DierctionBothBoosters(0, 1);
                 else
-                {
-                    Direction(0, 0, TurbineLeft);
-                    Direction(0, 0, TurbineRight);
-                }
+                    DierctionBothBoosters(0, 0);
             }
             else
             {
                 if (Input.GetAxis("RotateCharacter") != 0)
                 {
-                    //if (Input.GetAxis("RotateCharacter") > 0)
-                    // {
-                    Direction(Input.GetAxis("RotateCharacter"), 0, TurbineLeft);
-                    //    Direction(0, 0, TurbineRight);
-                    //}
-                    // else
-                    //{
-                    //    Direction(0, 0, TurbineLeft);
-                    Direction(Input.GetAxis("RotateCharacter"), 0, TurbineRight);
-                    // }
+                    DierctionBothBoosters(Input.GetAxis("RotateCharacter"), 0);
                 }
                 else
                 {
                     var AbsHorizontal = Mathf.Abs(Input.GetAxis("Horizontal"));
                     if (AbsHorizontal > Mathf.Abs(Input.GetAxis("Vertical")))
-                    {
-                        Direction(0, AbsHorizontal, TurbineLeft);
-                        Direction(0, AbsHorizontal, TurbineRight);
-                    }
+                        DierctionBothBoosters(0, AbsHorizontal);
                     else
-                    {
-                        Direction(0,  Mathf.Abs(Input.GetAxis("Vertical")), TurbineLeft);
-                        Direction(0,  Mathf.Abs(Input.GetAxis("Vertical")), TurbineRight);
-                    }
+                        DierctionBothBoosters(0, Mathf.Abs(Input.GetAxis("Vertical")));
                     //Direction(-Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), TurbineLeft);
                     //Direction(-Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), TurbineRight);
                 }
             }
 
-            //TurbineRight.transform.localRotation = TurbineLeft.transform.localRotation;
-
             UpdateJetPack(Input.GetAxis("RightTurbine"), Input.GetAxis("LeftTurbine"));
-            VerifyMaxVelocity();
         }
 
         void UpdateJetPack(float rightPower, float leftPower)
         {
+            if (Fuel <= 0)
+            {
+                FireLeft.parent.localScale = FireRight.parent.localScale = new Vector3(1, 0, 1);
+                return;
+            }
+
             Vector3 turbineDirectionL = Vector3.zero;
             Vector3 turbineDirectionR = Vector3.zero;
 
@@ -123,8 +174,16 @@ namespace Assets.Scripts
             else
                 FireLeft.gameObject.GetComponent<MeshRenderer>().enabled = false;
 
+            if (rightPower != 0 || leftPower != 0)
+                ConsumeFuel(rightPower, leftPower);
             UIDebugger.JetPackForce = (turbineDirectionR + turbineDirectionL);
             RigidBody.AddRelativeForce((turbineDirectionR + turbineDirectionL));
+        }
+
+        void DierctionBothBoosters(float horizonal, float vertical)
+        {
+            Direction(horizonal, vertical, TurbineRight);
+            TurbineLeft.localRotation = TurbineRight.localRotation;
         }
 
         void Direction(float horizontal, float vertical, Transform transform)
@@ -140,10 +199,27 @@ namespace Assets.Scripts
             transform.rotation *= Quaternion.AngleAxis(Input.GetAxis("RotateCharacter") * RotationVelocity, Vector3.up);
         }
 
+        void ConsumeFuel(float rightPower, float leftPower)
+        {
+            FuelTimer = Time.time;
+            Fuel = Mathf.Clamp01(Fuel - ((FuelConsumeFactor * leftPower) + (FuelConsumeFactor * rightPower)));
+        }
+
+        void RecoverFuel()
+        {
+            if (Time.time > FuelTimer + FuelRecoveryDelay)
+                Fuel = Mathf.Clamp01(Fuel + FuelRecoveryFactor);
+        }
+
         void VerifyMaxVelocity()
         {
             if (RigidBody.velocity.magnitude > MaxVelocity)
+            {
+                var oldY = Mathf.Clamp(RigidBody.velocity.y, -TerminalVelocity, 0);
                 RigidBody.velocity = RigidBody.velocity.normalized * MaxVelocity;
+                if (oldY < 0)
+                    RigidBody.velocity = new Vector3(RigidBody.velocity.x, oldY, RigidBody.velocity.z);
+            }
         }
     }
 }

@@ -9,6 +9,7 @@ namespace Assets.Scripts
         public Rigidbody Rigidbody;
 
         public static Vector3 JetPackForce;
+        public static float Fuel;
 
         void Start()
         {
@@ -30,6 +31,7 @@ namespace Assets.Scripts
             arrText[9].text = "Velocity(mag): " + Rigidbody.velocity.magnitude.ToString("N2");
             arrText[10].text = "Position: " + Rigidbody.position;
             arrText[11].text = "JetPack Force: " + JetPackForce;
+            arrText[12].text = "Fuel: " + (Fuel * 100).ToString("N2") + "%";
         }
     }
 }
