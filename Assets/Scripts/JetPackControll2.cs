@@ -24,6 +24,7 @@ namespace Assets.Scripts
         public float RotationVelocity;
 
         public float MaxVelocity;
+        public float MaxVelocityTurboMode;
         public float TerminalVelocity;
 
         public float FuelRecoveryFactor;
@@ -100,19 +101,13 @@ namespace Assets.Scripts
                 return;
             }
 
-            if (Input.GetAxis("RotateCharacter") != 0)
-            {
-                DierctionBothBoosters(Input.GetAxis("RotateCharacter"), 0);
-            }
-            else
-            {
-                DierctionBothBoosters(-Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-            }
+
+            DierctionBothBoosters(-Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
             //Rotate();
             ConsumeFuel(0.5f, 0.5f);
             UpdateJetPack(Input.GetAxis("RightTurbine"), Input.GetAxis("LeftTurbine"));
             RigidBody.AddRelativeForce(Vector3.up * 20);
-            RigidBody.AddForce(Vector3.up * 40);
+            RigidBody.AddForce(Vector3.up * 30);
 
             if (Input.GetAxis("L1") == 0 || Input.GetAxis("R1") == 0)
                 ToggleMode();
@@ -120,7 +115,7 @@ namespace Assets.Scripts
 
         void ChangeModeManager()
         {
-            if (Input.GetAxis("L1") != 0 && Input.GetAxis("R1") != 0)
+            if (!ThirdPersonCharacter.m_IsGrounded && Input.GetAxis("L1") != 0 && Input.GetAxis("R1") != 0)
             {
                 ChangeModeTimer += Time.fixedDeltaTime;
                 if (ChangeModeTimer > ChangeModeDelay)

@@ -24,10 +24,12 @@ namespace Assets.Scripts
 
         private float m_LookAngle;                    // The rig's y axis rotation.
         private float m_TiltAngle;                    // The pivot's x axis rotation.
-        private const float k_LookDistance = 100f;    // How far in front of the pivot the character's look target is.
+        private const float k_LookDistance = 1000f;    // How far in front of the pivot the character's look target is.
 		private Vector3 m_PivotEulers;
 		private Quaternion m_PivotTargetRot;
 		private Quaternion m_TransformTargetRot;
+
+        bool IsResetingCameraPosition;
 
         protected override void Awake()
         {
@@ -45,11 +47,9 @@ namespace Assets.Scripts
         protected void Update()
         {
             HandleRotationMovement();
-            if (m_LockCursor && Input.GetMouseButtonUp(0))
-            {
-                Cursor.lockState = m_LockCursor ? CursorLockMode.Locked : CursorLockMode.None;
-                Cursor.visible = !m_LockCursor;
-            }
+
+            if (Input.GetAxis("R3") != 0)
+                IsResetingCameraPosition = true;
         }
 
 
@@ -67,6 +67,15 @@ namespace Assets.Scripts
             transform.position = Vector3.Lerp(transform.position, m_Target.position, deltaTime*m_MoveSpeed);
         }
 
+        void ResetCameraPosition()
+        {
+            if (IsResetingCameraPosition == false)
+                return;
+
+            m_TiltAngle = 0;
+            m_LookAngle = Target.rotation.eulerAngles.y;
+            IsResetingCameraPosition = false;
+        }
 
         private void HandleRotationMovement()
         {
@@ -101,6 +110,7 @@ namespace Assets.Scripts
             // Tilt input around X is applied to the pivot (the child of this object)
 			m_PivotTargetRot = Quaternion.Euler(m_TiltAngle, m_PivotEulers.y , m_PivotEulers.z);
 
+            
 			if (m_TurnSmoothing > 0)
 			{
 				m_Pivot.localRotation = Quaternion.Slerp(m_Pivot.localRotation, m_PivotTargetRot, m_TurnSmoothing * Time.deltaTime);
@@ -111,6 +121,8 @@ namespace Assets.Scripts
 				m_Pivot.localRotation = m_PivotTargetRot;
 				transform.localRotation = m_TransformTargetRot;
 			}
+            
+            ResetCameraPosition();
         }
     }
 }
