@@ -34,6 +34,9 @@ namespace Assets.Scripts
 
         public bool TurboMode;
 
+        public float ChangeModeDelay;
+        float ChangeModeTimer;
+
 
         public JetPackControll2()
         {
@@ -48,6 +51,7 @@ namespace Assets.Scripts
             FuelRecoveryFactor = 0.2f;
             FuelConsumeFactor = 0.1f;
             FuelRecoveryDelay = 2;
+            ChangeModeDelay = 1;
         }
 
         void Start()
@@ -58,9 +62,6 @@ namespace Assets.Scripts
 
         void FixedUpdate()
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-                ToggleMode();
-
             if (TurboMode)
                 UpdateTurboMode();
             else
@@ -112,6 +113,24 @@ namespace Assets.Scripts
             UpdateJetPack(Input.GetAxis("RightTurbine"), Input.GetAxis("LeftTurbine"));
             RigidBody.AddRelativeForce(Vector3.up * 20);
             RigidBody.AddForce(Vector3.up * 40);
+
+            if (Input.GetAxis("L1") == 0 || Input.GetAxis("R1") == 0)
+                ToggleMode();
+        }
+
+        void ChangeModeManager()
+        {
+            if (Input.GetAxis("L1") != 0 && Input.GetAxis("R1") != 0)
+            {
+                ChangeModeTimer += Time.fixedDeltaTime;
+                if (ChangeModeTimer > ChangeModeDelay)
+                {
+                    ChangeModeTimer = 0;
+                    ToggleMode();
+                }
+            }
+            else
+                ChangeModeTimer = 0;
         }
 
         void UpdateHoverMode()
@@ -142,6 +161,7 @@ namespace Assets.Scripts
             }
 
             UpdateJetPack(Input.GetAxis("RightTurbine"), Input.GetAxis("LeftTurbine"));
+            ChangeModeManager();
         }
 
         void UpdateJetPack(float rightPower, float leftPower)
