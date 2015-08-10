@@ -90,7 +90,8 @@ namespace Assets.Scripts
 				float crouchRayLength = m_CapsuleHeight - m_Capsule.radius * k_Half;
 				if (Physics.SphereCast(crouchRay, m_Capsule.radius * k_Half, crouchRayLength))
 				{
-					m_Crouching = true;
+                    //Bruno esteve aqui
+					//m_Crouching = true;
 					return;
 				}
 				m_Capsule.height = m_CapsuleHeight;
@@ -108,7 +109,8 @@ namespace Assets.Scripts
 				float crouchRayLength = m_CapsuleHeight - m_Capsule.radius * k_Half;
 				if (Physics.SphereCast(crouchRay, m_Capsule.radius * k_Half, crouchRayLength))
 				{
-					m_Crouching = true;
+                    //Bruno esteve aqui
+					//m_Crouching = true;
 				}
 			}
 		}

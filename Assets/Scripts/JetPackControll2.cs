@@ -27,6 +27,7 @@ namespace Assets.Scripts
         public float MaxVelocity;
         public float MaxVelocityTurboMode;
         public float TerminalVelocity;
+        public float MinimumYPosition;
 
         public float FuelRecoveryFactor;
         public float FuelConsumeFactor;
@@ -45,6 +46,7 @@ namespace Assets.Scripts
         public float ChangeModeDelay;
         float ChangeModeTimer;
 
+        public bool EnableTurboMode;
 
         public JetPackControll2()
         {
@@ -55,6 +57,7 @@ namespace Assets.Scripts
             RotationVelocity = 3;
             MaxVelocity = 70;
             TerminalVelocity = 40;
+            MinimumYPosition = -100;
 
             FuelRecoveryFactor = 0.2f;
             FuelConsumeFactor = 0.1f;
@@ -72,6 +75,12 @@ namespace Assets.Scripts
             ThirdPersonCharacter = GetComponent<CustomThirdPersonCharacter>();
             RigidBody = GetComponent<Rigidbody>();
             FireCenter.gameObject.GetComponent<MeshRenderer>().enabled = false;
+
+            if (transform.position.y < MinimumYPosition)
+            {
+                Debug.LogError("Minimun Y position can be less than start Y. Arruma isso Natanael!");
+                MinimumYPosition = transform.position.y - 100;
+            }
         }
 
         void FixedUpdate()
@@ -81,6 +90,7 @@ namespace Assets.Scripts
             else
                 UpdateHoverMode();
 
+            VerifyMinimumPosition();
             VerifyMaxVelocity();
             RecoverFuel();
             UIDebugger.Fuel = Fuel;
@@ -157,7 +167,7 @@ namespace Assets.Scripts
 
         void ChangeModeManager()
         {
-            if (!ThirdPersonCharacter.m_IsGrounded && Input.GetAxis("L1") != 0 && Input.GetAxis("R1") != 0)
+            if (EnableTurboMode && !ThirdPersonCharacter.m_IsGrounded && Input.GetAxis("L1") != 0 && Input.GetAxis("R1") != 0)
             {
                 ChangeModeTimer += Time.fixedDeltaTime;
                 if (ChangeModeTimer > ChangeModeDelay)
@@ -275,6 +285,12 @@ namespace Assets.Scripts
 
             if (TurboMode == false && Time.time > TurboFuelTimer + TurboFuelRecoveryDelay)
                 TurboFuel = Mathf.Clamp01(TurboFuel + TurboFuelRecoveryFactor);
+        }
+
+        void VerifyMinimumPosition()
+        {
+            if (transform.position.y < MinimumYPosition)
+                Application.LoadLevel(Application.loadedLevel);
         }
 
         void VerifyMaxVelocity()
