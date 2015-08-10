@@ -152,7 +152,6 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
      <None Include="Assets\Scenario\Clouds\Quantum Theory\3D Cloud Models\Documentation.txt" />
-     <None Include="Assets\Plugin\NatanaelCamera\ootii\ACReadMe.txt" />
      <None Include="Assets\Scenario\Clouds\Quantum Theory\3D Cloud Models\Shaders\3DCloudModels-HardAlphaBlend.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />

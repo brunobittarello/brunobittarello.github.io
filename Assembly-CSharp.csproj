@@ -46,30 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\AdventureCamera\Code\AI\Controllers\AdventureController.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\AdventureCamera\Code\AI\Controllers\AdventureControllerState.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\AdventureCamera\Code\Cameras\AdventureRig.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\AdventureCamera\Code\Cameras\IndAdventureRig.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\AdventureCamera\Code\Input\InputManager.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\AI\Controllers\Controller.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\AI\Controllers\EnumControllerHeading.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\AI\Controllers\EnumControllerMode.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\AI\Controllers\EnumSpeedTrend.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Base\BaseMonoObject.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Base\BaseObject.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Base\BaseScriptableObject.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Base\IBaseObject.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Cameras\CameraRig.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Cameras\EnumCameraMode.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Collections\ArrayExt.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Collections\ObjectPool.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Geometry\RaycastExt.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Helpers\NumberHelper.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Helpers\StringHelper.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Input\InputManagerCore.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Input\ootiiInputStub.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Utilities\Debug\Log.cs" />
-     <Compile Include="Assets\Plugin\NatanaelCamera\ootii\Framework_v1\Code\Utilities\Debug\LogText.cs" />
      <Compile Include="Assets\Scripts\BrunoFreeLookCam.cs" />
      <Compile Include="Assets\Scripts\CameraRotateAround.cs" />
      <Compile Include="Assets\Scripts\CustomThirdPersonCharacter.cs" />
@@ -96,7 +72,6 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
      <None Include="Assets\Scenario\Clouds\Quantum Theory\3D Cloud Models\Documentation.txt" />
-     <None Include="Assets\Plugin\NatanaelCamera\ootii\ACReadMe.txt" />
      <None Include="Assets\Scenario\Clouds\Quantum Theory\3D Cloud Models\Shaders\3DCloudModels-HardAlphaBlend.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
