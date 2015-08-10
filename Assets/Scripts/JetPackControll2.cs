@@ -91,7 +91,10 @@ namespace Assets.Scripts
                 UpdateHoverMode();
 
             VerifyMinimumPosition();
-            VerifyMaxVelocity();
+            if (TurboMode)
+                VerifyMaxVelocityTurboMode();
+            else
+                VerifyMaxVelocity();
             RecoverFuel();
             UIDebugger.Fuel = Fuel;
             UIDebugger.TurboFuel = TurboFuel;
@@ -109,6 +112,7 @@ namespace Assets.Scripts
                 FireCenter.gameObject.GetComponent<MeshRenderer>().enabled = true;
                 GetComponent<CustomThirdPersonUserControl>().enabled = false;
                 GetComponent<CustomThirdPersonCharacter>().enabled = false;
+                GetComponent<Animator>().SetFloat("Jump", -100);
             }
             else
             {
@@ -123,7 +127,7 @@ namespace Assets.Scripts
 
         void UpdateTurboMode()
         {
-            if (ThirdPersonCharacter.m_IsGrounded || Fuel <= 0)
+            if (ThirdPersonCharacter.m_IsGrounded || TurboFuel <= 0)
             {
                 ToggleMode();
                 return;
@@ -299,6 +303,17 @@ namespace Assets.Scripts
             {
                 var oldY = Mathf.Clamp(RigidBody.velocity.y, -TerminalVelocity, 0);
                 RigidBody.velocity = RigidBody.velocity.normalized * MaxVelocity;
+                if (oldY < 0)
+                    RigidBody.velocity = new Vector3(RigidBody.velocity.x, oldY, RigidBody.velocity.z);
+            }
+        }
+
+        void VerifyMaxVelocityTurboMode()
+        {
+            if (RigidBody.velocity.magnitude > MaxVelocityTurboMode)
+            {
+                var oldY = Mathf.Clamp(RigidBody.velocity.y, -TerminalVelocity, 0);
+                RigidBody.velocity = RigidBody.velocity.normalized * MaxVelocityTurboMode;
                 if (oldY < 0)
                     RigidBody.velocity = new Vector3(RigidBody.velocity.x, oldY, RigidBody.velocity.z);
             }

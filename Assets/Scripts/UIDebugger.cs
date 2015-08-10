@@ -31,6 +31,8 @@ namespace Assets.Scripts
             TurboFuelBar = transform.GetChild(1).GetChild(1).GetComponent<Image>();
             FuelBarHeigh = FuelBar.rectTransform.sizeDelta.y;
             TurboFuelBarHeigh = TurboFuelBar.rectTransform.sizeDelta.y;
+
+            DebugPanel.gameObject.SetActive(showDebugDisplay);
         }
 
         void Update()
