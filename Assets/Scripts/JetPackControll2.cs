@@ -14,6 +14,7 @@ namespace Assets.Scripts
 
         public Transform FireRight;
         public Transform FireLeft;
+        public Transform FireCenter;
 
         Rigidbody RigidBody;
         public Vector3 RightForceDirection;
@@ -35,6 +36,12 @@ namespace Assets.Scripts
 
         public bool TurboMode;
 
+        public float TurboFuelRecoveryFactor;
+        public float TurboFuelConsumeFactor;
+        public float TurboFuelRecoveryDelay;
+        float TurboFuel;
+        float TurboFuelTimer;
+
         public float ChangeModeDelay;
         float ChangeModeTimer;
 
@@ -52,6 +59,11 @@ namespace Assets.Scripts
             FuelRecoveryFactor = 0.2f;
             FuelConsumeFactor = 0.1f;
             FuelRecoveryDelay = 2;
+
+            TurboFuelRecoveryFactor = 0.2f;
+            TurboFuelConsumeFactor = 0.1f;
+            TurboFuelRecoveryDelay = 2;
+
             ChangeModeDelay = 1;
         }
 
@@ -59,6 +71,7 @@ namespace Assets.Scripts
         {
             ThirdPersonCharacter = GetComponent<CustomThirdPersonCharacter>();
             RigidBody = GetComponent<Rigidbody>();
+            FireCenter.gameObject.GetComponent<MeshRenderer>().enabled = false;
         }
 
         void FixedUpdate()
@@ -81,6 +94,8 @@ namespace Assets.Scripts
             {
                 angles.x = 70;
                 transform.localRotation = Quaternion.Euler(angles);
+                FireCenter.parent.localScale = new Vector3(1, 0, 1);
+                FireCenter.gameObject.GetComponent<MeshRenderer>().enabled = true;
                 GetComponent<CustomThirdPersonUserControl>().enabled = false;
                 GetComponent<CustomThirdPersonCharacter>().enabled = false;
             }
@@ -88,6 +103,8 @@ namespace Assets.Scripts
             {
                 angles.x = 0;
                 transform.localRotation = Quaternion.Euler(angles);
+                FireCenter.gameObject.GetComponent<MeshRenderer>().enabled = false;
+                TurboFuelTimer = Time.time;
                 GetComponent<CustomThirdPersonCharacter>().enabled = true;
                 GetComponent<CustomThirdPersonUserControl>().enabled = true;
             }
@@ -101,6 +118,8 @@ namespace Assets.Scripts
                 return;
             }
 
+            if (FireCenter.parent.localScale.y != 1)
+                FireCenter.parent.localScale = new Vector3(1, Mathf.Lerp(FireCenter.parent.localScale.y, 1, 0.08f), 1);
 
             DierctionBothBoosters(-Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
             //Rotate();
@@ -217,14 +236,22 @@ namespace Assets.Scripts
 
         void ConsumeFuel(float rightPower, float leftPower)
         {
-            FuelTimer = Time.time;
-            Fuel = Mathf.Clamp01(Fuel - ((FuelConsumeFactor * leftPower) + (FuelConsumeFactor * rightPower)));
+            if (TurboMode)
+                TurboFuel = Mathf.Clamp01(TurboFuel - ((TurboFuelConsumeFactor * leftPower) + (TurboFuelConsumeFactor * rightPower)));
+            else
+            {
+                FuelTimer = Time.time;
+                Fuel = Mathf.Clamp01(Fuel - ((FuelConsumeFactor * leftPower) + (FuelConsumeFactor * rightPower)));
+            }
         }
 
         void RecoverFuel()
         {
             if (Time.time > FuelTimer + FuelRecoveryDelay)
                 Fuel = Mathf.Clamp01(Fuel + FuelRecoveryFactor);
+
+            if (TurboMode == false && Time.time > TurboFuelTimer + TurboFuelRecoveryDelay)
+                TurboFuel = Mathf.Clamp01(TurboFuel + TurboFuelRecoveryFactor);
         }
 
         void VerifyMaxVelocity()
