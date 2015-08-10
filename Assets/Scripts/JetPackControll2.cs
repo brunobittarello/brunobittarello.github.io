@@ -84,6 +84,7 @@ namespace Assets.Scripts
             VerifyMaxVelocity();
             RecoverFuel();
             UIDebugger.Fuel = Fuel;
+            UIDebugger.TurboFuel = TurboFuel;
         }
 
         void ToggleMode()
@@ -118,6 +119,10 @@ namespace Assets.Scripts
                 return;
             }
 
+            if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
+                TurboModeRotation(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+
+
             if (FireCenter.parent.localScale.y != 1)
                 FireCenter.parent.localScale = new Vector3(1, Mathf.Lerp(FireCenter.parent.localScale.y, 1, 0.08f), 1);
 
@@ -126,10 +131,28 @@ namespace Assets.Scripts
             ConsumeFuel(0.5f, 0.5f);
             UpdateJetPack(Input.GetAxis("RightTurbine"), Input.GetAxis("LeftTurbine"));
             RigidBody.AddRelativeForce(Vector3.up * 20);
-            RigidBody.AddForce(Vector3.up * 30);
+            RigidBody.AddForce(Vector3.up * 25);
 
             if (Input.GetAxis("L1") == 0 || Input.GetAxis("R1") == 0)
                 ToggleMode();
+        }
+
+        private void TurboModeRotation(float horizontal, float vertical)
+        {
+            var m_CamForward = Vector3.Scale(Camera.main.transform.forward, new Vector3(1, 0, 1)).normalized;
+            var m_Move = vertical * m_CamForward + horizontal * Camera.main.transform.right;
+            m_Move = transform.InverseTransformDirection(m_Move);
+            m_Move = Vector3.ProjectOnPlane(m_Move, Vector3.up);
+            var m_TurnAmount = Mathf.Atan2(m_Move.x, m_Move.z);
+            Debug.Log(m_TurnAmount);
+            //transform.Rotate(0, m_TurnAmount * 0.5f, 0, Space.Self);
+
+            //Debug.Log(m_Move);
+
+            var rotation = transform.rotation.eulerAngles;
+            rotation.y += m_TurnAmount;
+            rotation.z = Mathf.Clamp(rotation.z + Mathf.Atan2(m_Move.x, m_Move.y), -(Mathf.Deg2Rad * 20), (Mathf.Deg2Rad * 20));
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(rotation), 0.1f);
         }
 
         void ChangeModeManager()

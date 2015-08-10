@@ -581,8 +581,8 @@ MonoBehaviour:
   FuelConsumeFactor: 9.99999975e-05
   FuelRecoveryDelay: 2
   TurboMode: 0
-  TurboFuelRecoveryFactor: .200000003
-  TurboFuelConsumeFactor: .100000001
+  TurboFuelRecoveryFactor: .00999999978
+  TurboFuelConsumeFactor: 9.99999975e-05
   TurboFuelRecoveryDelay: 2
   ChangeModeDelay: 1
 --- !u!1 &244118979
