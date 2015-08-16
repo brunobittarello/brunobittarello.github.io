@@ -77,7 +77,7 @@ namespace Assets.Scripts
             newSize = TurboFuelBar.rectTransform.sizeDelta;
             newSize.y = TurboFuelBarHeigh * TurboFuel;
             TurboFuelBar.rectTransform.sizeDelta = newSize;
-            TurboFuelBar.color = new Color(1, Fuel, 0);
+            TurboFuelBar.color = new Color(1, TurboFuel, 0);
         }
     }
 }
