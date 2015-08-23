@@ -284,6 +284,9 @@ namespace Assets.Scripts
 
         void RecoverFuel()
         {
+            if (ThirdPersonCharacter.m_IsGrounded == false)
+                return;
+
             if (Time.time > FuelTimer + FuelRecoveryDelay)
                 Fuel = Mathf.Clamp01(Fuel + FuelRecoveryFactor);
 
