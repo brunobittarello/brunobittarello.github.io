@@ -48,6 +48,11 @@ namespace Assets.Scripts
 
         public bool EnableTurboMode;
 
+        public Vector2 DeadForce;
+        public Vector2 HoverForce;
+        public Vector2 FullForce;
+        public float HoverAdapterAmount;
+
         public JetPackControll2()
         {
             RightForceDirection = new Vector3(-0.4f, 0.6f, 0);
@@ -66,6 +71,11 @@ namespace Assets.Scripts
             TurboFuelRecoveryFactor = 0.2f;
             TurboFuelConsumeFactor = 0.1f;
             TurboFuelRecoveryDelay = 2;
+
+            DeadForce = new Vector2(0, 0);
+            HoverForce = new Vector2(0.4f, 0.65f);
+            FullForce = new Vector2(0.7f, 1);
+            HoverAdapterAmount = 0.2f;
 
             ChangeModeDelay = 1;
         }
@@ -95,6 +105,10 @@ namespace Assets.Scripts
                 VerifyMaxVelocityTurboMode();
             else
                 VerifyMaxVelocity();
+
+            if (Input.GetAxis("ButtonO-X") != 0)
+                DebugResetFueld();
+
             RecoverFuel();
             UIDebugger.Fuel = Fuel;
             UIDebugger.TurboFuel = TurboFuel;
@@ -211,16 +225,45 @@ namespace Assets.Scripts
                 }
             }
 
-            UpdateJetPack(Input.GetAxis("RightTurbine"), Input.GetAxis("LeftTurbine"));
+            ForceAdapter(Input.GetAxis("RightTurbine"), Input.GetAxis("LeftTurbine"));
             ChangeModeManager();
         }
 
-        void UpdateJetPack(float rightPower, float leftPower)
+        void ForceAdapter(float rightPower, float leftPower)
+        {
+            var hover = false;
+            if (DeadForce.x < rightPower && rightPower < DeadForce.y && DeadForce.x < leftPower && leftPower < DeadForce.y)
+            {
+                rightPower = 0;
+                leftPower = 0;
+            }
+            if (HoverForce.x < rightPower && rightPower < HoverForce.y && HoverForce.x < leftPower && leftPower < HoverForce.y)
+            {
+                hover = true;
+                rightPower = 0.5f;
+                leftPower = 0.5f;
+            }
+            if (FullForce.x < rightPower && rightPower < FullForce.y && FullForce.x < leftPower && leftPower < FullForce.y)
+            {
+                rightPower = 1;
+                leftPower = 1;
+            }
+
+            UpdateJetPack(rightPower, leftPower, hover);
+        }
+
+        void UpdateJetPack(float rightPower, float leftPower, bool hover = false)
         {
             if (Fuel <= 0)
             {
                 FireLeft.parent.localScale = FireRight.parent.localScale = new Vector3(1, 0, 1);
                 return;
+            }
+
+            if (hover)
+            {
+                var velocityY = Mathf.Lerp(RigidBody.velocity.y, 0, HoverAdapterAmount);
+                RigidBody.velocity = new Vector3(RigidBody.velocity.x, velocityY, RigidBody.velocity.z);
             }
 
             Vector3 turbineDirectionL = Vector3.zero;
@@ -320,6 +363,12 @@ namespace Assets.Scripts
                 if (oldY < 0)
                     RigidBody.velocity = new Vector3(RigidBody.velocity.x, oldY, RigidBody.velocity.z);
             }
+        }
+
+        void DebugResetFueld()
+        {
+            Fuel = 1;
+            TurboFuel = 1;
         }
     }
 }
