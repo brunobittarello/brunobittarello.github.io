@@ -48,7 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BrunoFreeLookCam.cs" />
      <Compile Include="Assets\Scripts\CameraRotateAround.cs" />
+     <Compile Include="Assets\Scripts\CameraTargets.cs" />
      <Compile Include="Assets\Scripts\Checkpoint.cs" />
+     <Compile Include="Assets\Scripts\CheckpointManager.cs" />
      <Compile Include="Assets\Scripts\CustomThirdPersonCharacter.cs" />
      <Compile Include="Assets\Scripts\CustomThirdPersonUserControl.cs" />
      <Compile Include="Assets\Scripts\GroundControl.cs" />
