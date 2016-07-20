@@ -317,7 +317,8 @@ footer .footer-below {
   border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
-  margin-top: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 .btn-outline:hover,
 .btn-outline:focus,
