@@ -1,0 +1,371 @@
+﻿{
+  "personal": {
+    "objective": "Work in a game studio as programmer.",
+    "summary": "I'm a programmer since 2010",
+    "bio": "I was born in 1992, Porto Alegre, Brazil. I was 7 year old when I started to use computer. Playing games was my main activity years later, making me want to work with it.",
+    "otherSkills": [ "play many instruments", "compose", "edit videos", "model in 3D", "animate" ]
+  },
+  "education": [
+    {
+      "level": "Specialization",
+      "courses": [
+        {
+          "description": "Development of Digital Games - Programming and Game Designer",
+          "period": "2015-2016/2",
+          "school": "PUCRS",
+          "place": "Porto Alegre\\BR"
+        }
+      ]
+    },
+    {
+      "level": "Bachelor's Degree",
+      "courses": [
+        {
+          "description": "Computer Science",
+          "period": "2009-2014",
+          "school": "Unilasalle",
+          "place": "Canoas\\BR"
+        }
+      ]
+    },
+    {
+      "level": "Extracurricular",
+      "courses": [
+        {
+          "description": "Students to Business",
+          "period": "2013",
+          "school": "PUCRS",
+          "place": "Porto Alegre\\BR"
+        },
+        {
+          "description": "Arduino Advanced",
+          "period": "2013",
+          "school": "Unilasalle",
+          "place": "Canoas\\BR"
+        },
+        {
+          "description": "Arduino Basic",
+          "period": "2012",
+          "school": "Unilasalle",
+          "place": "Canoas\\BR"
+        },
+        {
+          "description": "Programming in C for microprocessors",
+          "period": "2011",
+          "school": "Unilasalle",
+          "place": "Canoas\\BR"
+        },
+        {
+          "description": "English Course",
+          "period": "2005-2009",
+          "school": "Challenge Idioms Center",
+          "place": "Canoas\\BR"
+        }
+      ]
+    }
+  ],
+  "professional": [
+    {
+      "name": "Autonomous Development",
+      "date": "2015",
+      "place": "Canoas\\BR",
+      "description": "Paid Android/IOS game for a kid toy. My classmate brought the project to create a program that will enhance the experience of the toy. This program allows to take photos and import them to virtual cube. For each faces there will be a game using the animal sprite as the player. If the face associated with the animal has a photo taken, it will be used as the animal sprite texture in game."
+    },
+    {
+      "name": "Autonomous Development",
+      "date": "2015",
+      "place": "Canoas\\BR",
+      "description": "Paid web PHP system to store plant photos for academic purposes. It is like a gallery to expose the information collected in the other system with photos. Using MVC, Bootstrap, Jquery and MySql."
+    },
+    {
+      "name": "DBServer ",
+      "date": "2014",
+      "place": "Porto Alegre\\BR",
+      "description": "I've got this job after a good presentation in Students to Business. I've participated in three different projects, all in C# and SQL Server. Two were maintenance. The last was from beginning. The system was about material test control with laboratories and budget managements. The client was a government organ and they participate in meetings with my team after each Scrum sprint. In November I decided to stop working in web systems and start studing to work with programming games."
+    },
+    {
+      "name": "Autonomous Development",
+      "date": "2014",
+      "place": "Canoas\\BR",
+      "description": "Paid web PHP system to store plant data collected by the university. Using MVC, Jquery and MySq."
+    },
+    {
+      "name": "Unilasalle",
+      "date": "2009-2013",
+      "place": "Canoas\\BR",
+      "description": "I started as a probationer and finished as a middle programmer. I was learning the theoretical part of computation at university and the practice in this job. My job was to create programs for the internal administrative system, student portal and professor portal. The language and database was PHP and Oracle g10. Sometimes I converted old programs from the old system in VB Desktop to the new in PHP. In the last year on the job, I started going to meetings with department leaders to define future programs."
+    }
+  ],
+  "skillSections": [
+    {
+      "name": "Programs",
+      "skills": [
+        {
+          "name": "Arduino",
+          "level": 3
+        },
+        {
+          "name": "Audacity",
+          "level": 4
+        },
+        {
+          "name": "Blender",
+          "level": 4
+        },
+        {
+          "name": "Photoshop",
+          "level": 4
+        },
+        {
+          "name": "Gimp",
+          "level": 3
+        },
+        {
+          "name": "Sony Vegas",
+          "level": 4
+        },
+        {
+          "name": "Unity",
+          "level": 5
+        }
+      ]
+    },
+
+    {
+      "name": "Languages",
+      "skills": [
+        {
+          "name": "C/C++",
+          "level": 4
+        },
+        {
+          "name": "C#",
+          "level": 5
+        },
+        {
+          "name": "HTML",
+          "level": 5
+        },
+        {
+          "name": "Java",
+          "level": 3
+        },
+        {
+          "name": "Javascript",
+          "level": 5
+        },
+        {
+          "name": "Kotin",
+          "level": 3
+        },
+        {
+          "name": "PHP",
+          "level": 5
+        },
+        {
+          "name": "Visual Baisc",
+          "level": 3
+        }
+      ]
+    },
+
+    {
+      "name": "Version Control",
+      "skills": [
+        {
+          "name": "SVN",
+          "level": 4
+        },
+        {
+          "name": "GIT",
+          "level": 4
+        },
+        {
+          "name": "Trac",
+          "level": 5
+        },
+        {
+          "name": "GitHub",
+          "level": 4
+        }
+      ]
+    },
+
+    {
+      "name": "Databases",
+      "skills": [
+        {
+          "name": "MySql",
+          "level": 4
+        },
+        {
+          "name": "Oracle",
+          "level": 4
+        },
+        {
+          "name": "SqlServer",
+          "level": 3
+        }
+      ]
+    }
+  ],
+  "games": [
+    {
+      "name": "Starlit On Wheels: Super Kart",
+      "description": "Welcome to the ride of your life with the heroes from Starlit Adventures: Bo and Kikki! Help Bo and Kikki on a thrilling chase to recover the stars that the villain Nuru has stolen to power his magical motor. During this exciting journey you'll confront breathtaking tracks and obstacles, and be challenged by enemies and creatures from the Starlit universe in championships full of fun and adventure. Along the way, you'll drive remarkable cars with special powers. While you enjoy this journey to save your friends, you'll upgrade your cars, collect rewards, assemble a trophy room and create your own tracks that other players can race and evaluate!",
+      "date": "November 2018",
+      "platforms": [
+        {
+          "name": "Iphone",
+          "link": "https://apps.apple.com/us/app/starlit-on-wheels-super-kart/id1352078840"
+        },
+        {
+          "name": "Android",
+          "link": "https://play.google.com/store/apps/details?id=com.rockhead.starlit.onwheels"
+        }
+      ],
+      "icon": "img/portfolio/starlitOnWheelsIcon.jpg",
+      "image": "img/portfolio/starlitOnWheels.png"
+    },
+    {
+      "name": "Starlit On Wheels: Super Kart",
+      "description": "Become the greatest Archer in Starlit universe! Play with your favorite characters and enjoy the story-line from the universe introduced in the award-winning game Starlit Adventures!",
+      "date": "September 2017",
+      "platforms": [
+        {
+          "name": "Iphone",
+          "link": "https://apps.apple.com/us/app/starlit-adventures/id1135100050"
+        },
+        {
+          "name": "Android",
+          "link": "https://play.google.com/store/apps/details?id=com.rockhead.starlit.archery"
+        }
+      ],
+      "icon": "img/portfolio/starlitAcheryIcon.jpg",
+      "image": "img/portfolio/starlitAcheryIcon.jpg"
+    },
+    {
+      "name": "Pac-Man",
+      "description": "",
+      "date": " April 2018",
+      "platforms": [
+        {
+          "name": "Windows",
+          "link": ""
+        }
+      ],
+      "icon": "img/portfolio/pacman2.png",
+      "image": "img/portfolio/pacman.png"
+    },
+    {
+      "name": "The Magic Tower",
+      "description": "Wizards with the ability to conjure elements to cast powers will fight against waves of monsters inside the tower. Sometimes, they brawl with each other to decide who is the best caster.",
+      "date": "November 2016",
+      "platforms": [
+        {
+          "name": "Windows",
+          "link": ""
+        }
+      ],
+      "icon": "img/portfolio/TheMagicTower16x9.png",
+      "image": "img/portfolio/TheMagicTower16x9.png"
+    },
+    {
+      "name": "Sprawl Celerity",
+      "description": "Sprawl Celerity is a futuristic 3D Battle-Racing video game with fast cars, powerful weapons and tracks in different scenarios, designed for PC with support for local and networked play.",
+      "date": "July 2016",
+      "platforms": [
+        {
+          "name": "Windows",
+          "link": ""
+        }
+      ],
+      "icon": "img/portfolio/sprawl.png",
+      "image": "img/portfolio/sprawl.png"
+    },
+    {
+      "name": "Jump 'n Bump",
+      "description": "Jump 'n Bump is a deathmatch competition among rabbits. The player must step over other rabbit to kill it. The rabbit whose kill the most wins!",
+      "date": "April 2015",
+      "platforms": [
+        {
+          "name": " Android",
+          "link": ""
+        },
+        {
+          "name": "Windows",
+          "link": ""
+        }
+      ],
+      "icon": "img/portfolio/jump.png",
+      "image": "img/portfolio/jump.png"
+    },
+    {
+      "name": "Galaga",
+      "description": "Galaga is a classic arcade game. I've recreated it using Monogame for 2D Programming class work.",
+      "date": "June 2015",
+      "platforms": [
+        {
+          "name": "Windows",
+          "link": ""
+        }
+      ],
+      "icon": "img/portfolio/galaga.png",
+      "image": "img/portfolio/galaga.png"
+    },
+    {
+      "name": "Drawing Cube",
+      "description": "This game is an auxiliary toy game. The toy allows kids to draw on all cubes faces where each face has an animal borders drawn. With this game, the kids can import theirs draws by taking photos. For every face (will be) an unique game using a sprite cut from the photo put in the correspondent face. It allows them to play games with theirs draw.",
+      "date": "Dec 2015",
+      "platforms": [
+        {
+          "name": "Iphone",
+          "link": ""
+        }
+      ],
+      "icon": "img/portfolio/cube.png",
+      "image": "img/portfolio/cube.png"
+    },
+    {
+      "name": "Project Boosters",
+      "description": "It isn't a game yet. It is just a concept right now. I have some ideas but I'm busy with other projects. Probably it will be an adventure with fire powers with puzzles and bosses to defeat. Would you like it?",
+      "date": "",
+      "platforms": [
+        {
+          "name": "Windows",
+          "link": ""
+        }
+      ],
+      "icon": "img/portfolio/boosters.png",
+      "image": "img/portfolio/boosters.png"
+    }
+  ],
+  "otherGames": [
+    {
+      "name": "Bomberman 3D",
+      "description": "Bomberman 3D is a game based on the classic Bomberman games. The difference it is a 3D game in first person. It features campaign mode, battle local and battle online.",
+      "date": "Dec 2015",
+      "platforms": [
+        {
+          "name": "Windows",
+          "link": ""
+        }
+      ],
+      "icon": "img/portfolio/bomber.jpg",
+      "image": "img/portfolio/bomber.jpg"
+    },
+    {
+      "name": "Strategy Warriors",
+      "description": "Strategy Warriors is a pseudo turn-based game in progress. It’s genre is artillery with a mechanics which requires each team sets movements to all it’s pieces.",
+      "date": "May 2015",
+      "platforms": [
+        {
+          "name": "Windows",
+          "link": ""
+        }
+      ],
+      "icon": "img/portfolio/warriors.png",
+      "image": "img/portfolio/warriors.png"
+    }
+  ]
+}
