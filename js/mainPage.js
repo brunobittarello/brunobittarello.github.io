@@ -50,11 +50,9 @@ function loadPersonal(personal) {
     html += createParagraphText(personal.bio);
     html += "<br />";
 
-    if (personal.otherSkills.length < 1) return;
-    html += "<ul class=\"text-left\">";
-    for (var i = 0; i < personal.otherSkills.length; i++)
-        html += "<li>..." + personal.otherSkills[i] + "</li>";
-    html += "</ul>";
+    html += createTitle("Other Skills");
+    html += createParagraphText(personal.otherSkills);
+    html += "<br />";
 
     return html;
 }
