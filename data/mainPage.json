@@ -2,7 +2,7 @@
   "personal": {
     "objective": "Work in a game studio as programmer.",
     "summary": "I'm a programmer since 2010. Along those many years learned many programming languages, technics and programs. Viewing my history, I can say I'm a person who can learn fast, care to do it well and try to improve the team and the project.",
-    "bio": "I was born in 1992, Porto Alegre, Brazil. I was 7 year old when I started to use computer. Playing games was my main activity years later, making me want to work with it. At first step, I learned how to program and, not mutch time before, I started to work. Years later my will to work in the game industry came back, so I stoped everything I downloaded Unity. After a finished my Post-Graduation in Digital Games, I joined in the game industry, as I wished.",
+    "bio": "I was born in 1992, Porto Alegre, Brazil. I was 7 year old when I started to use computer. Playing games was my main activity years later, making me want to work with it. At first step, I learned how to program and, not much time before, I started to work. Years later my will to work in the game industry came back, so I stopped everything I downloaded Unity. After a finished my Post-Graduation in Digital Games, I joined in the game industry, as I wished.",
     "otherSkills": "Some extra information about what I do/know. I can play many instruments (guitar, bass, drums and keyboard) and compose musics. I can edit videos (using Sony Vegas as preference) using technics and designs patters. In my Post-Graduation, I learned how to model and animate in 3D (using Blender), but I'm rusty a bit now."
   },
   "education": [
@@ -81,7 +81,7 @@
       "name": "Rockhead Games",
       "date": "Nov 2016 – Oct 2019 (3 yrs)",
       "place": "Porto Alegre\\BR",
-      "description": "I worked as programmer in Stalirt OnWheels since the begining (see the game page for more details). Port for Starlit Adventures for an arcade machine, xbox one and nintendo switch. I also helped in the end of the Starlit Archery project in the end of the project."
+      "description": "I worked as programmer in Stalirt OnWheels since the beginning  (see the game page for more details). Port for Starlit Adventures for an arcade machine, Xbox One and Nintendo Switch. I also helped in the end of the Starlit Archery project in the end of the project."
     },
     {
       "name": "Autonomous Development",
@@ -99,7 +99,7 @@
       "name": "DBServer ",
       "date": "Feb 2014 - Nov 2014 (10 mos)",
       "place": "Porto Alegre\\BR",
-      "description": "I've got this job after a good presentation in Students to Business. I've participated in three different projects, all in C# and SQL Server. Two were maintenance. The last was from beginning. The system was about material test control with laboratories and budget managements. The client was a government organ and they participate in meetings with my team after each Scrum sprint. In November I decided to stop working in web systems and start studing to work with programming games."
+      "description": "I've got this job after a good presentation in Students to Business. I've participated in three different projects, all in C# and SQL Server. Two were maintenance. The last was from beginning. The system was about material test control with laboratories and budget managements. The client was a government organ and they participate in meetings with my team after each Scrum sprint. In November I decided to stop working in web systems and start studying to work with programming games."
     },
     {
       "name": "Unilasalle",
@@ -442,7 +442,7 @@
           {
             "name": "0.1.0 – Beta",
             "date": "14-Jul-2016",
-            "objective": "Game expirience finalized."
+            "objective": "Game experience finalized."
           },
           {
             "name": "0.1.1 – Sounds",
@@ -548,7 +548,7 @@
           {
             "name": "1.0.0 – Release",
             "date": "24-Ago-2015",
-            "objective": "Pathfinding updated. Androind controls defined to IA for other players."
+            "objective": "Pathfinding updated. Android controls defined to IA for other players."
           }
         ]
       },
@@ -587,7 +587,7 @@
 
       "description": [
         "Galaga is a space shooter game that was very popular in arcades. The player controls a space chip that must destroy all aliens which appear in its view. Enemies will shot back, dive in your direction and try to abduct the player's chip. Every wave defeated will increase the difficulty.",
-        "For the future, I will implement the rest of the basic galaga feature like rescue a captured galaga fight. I've already done the two Galagas together, but transport the fighter behind the boss is another difficult challange.",
+        "For the future, I will implement the rest of the basic Galaga features, as rescuing a captured galaga ship. I've already done the two Galagas together, but transport the ship behind the boss is another difficult challenge.",
         "This game has a lot of versions. This remake is focus on Galaga 1981 for arcades."
       ],
       "details": {
@@ -610,7 +610,7 @@
             "objective": "Add all prototypes in the same project and test. Add more functionalities."
           },
           {
-            "name": "0.0.3 – Apresentation",
+            "name": "0.0.3 – Presentation",
             "date": "28-Jun-2015",
             "objective": "Remove some bugs and create menu with videos to give the idea."
           }
