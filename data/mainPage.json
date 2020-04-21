@@ -1,8 +1,8 @@
 ﻿{
   "personal": {
     "objective": "Work in a game studio as programmer.",
-    "summary": "I'm a programmer since 2010",
-    "bio": "I was born in 1992, Porto Alegre, Brazil. I was 7 year old when I started to use computer. Playing games was my main activity years later, making me want to work with it.",
+    "summary": "I'm a programmer since 2010. Along those many years learned many programming languages, technics and programs. Viewing my history, I can say I'm a person who can learn fast, care to do it well and try to improve the team and the project.",
+    "bio": "I was born in 1992, Porto Alegre, Brazil. I was 7 year old when I started to use computer. Playing games was my main activity years later, making me want to work with it. At first step, I learned how to program and, not mutch time before, I started to work. Years later my will to work in the game industry came back, so I stoped everything I downloaded Unity. After a finished my Post-Graduation in Digital Games, I joined in the game industry, as I wished.",
     "otherSkills": [ "play many instruments", "compose", "edit videos", "model in 3D", "animate" ]
   },
   "education": [
@@ -66,32 +66,44 @@
   ],
   "professional": [
     {
-      "name": "Autonomous Development",
-      "date": "2015",
+      "name": "Símix Sistemas",
+      "date": "Dec 2019",
       "place": "Canoas\\BR",
-      "description": "Paid Android/IOS game for a kid toy. My classmate brought the project to create a program that will enhance the experience of the toy. This program allows to take photos and import them to virtual cube. For each faces there will be a game using the animal sprite as the player. If the face associated with the animal has a photo taken, it will be used as the animal sprite texture in game."
+      "description": "Indoor media software for supermarkets."
+    },
+    {
+      "name": "iProcess",
+      "date": "Oct 2019 – Dec 2019 (3 mos)",
+      "place": "Porto Alegre\\BR",
+      "description": "Process and human job automation using Automation Anywhere RPA software."
+    },
+    {
+      "name": "Rockhead Games",
+      "date": "Nov 2016 – Oct 2019 (3 yrs)",
+      "place": "Porto Alegre\\BR",
+      "description": "I worked as programmer in Stalirt OnWheels since the begining (see the game page for more details). Port for Starlit Adventures for an arcade machine, xbox one and nintendo switch. I also helped in the end of the Starlit Archery project in the end of the project."
     },
     {
       "name": "Autonomous Development",
-      "date": "2015",
+      "date": "Oct 2015 - Dec 2015 (3 mos)",
       "place": "Canoas\\BR",
-      "description": "Paid web PHP system to store plant photos for academic purposes. It is like a gallery to expose the information collected in the other system with photos. Using MVC, Bootstrap, Jquery and MySql."
+      "description": "Android/IOS game for a kid toy. My classmate brought the project to create a program that will enhance the experience of the toy. This program allows to take photos and import them to virtual cube. For each faces there will be a game using the animal sprite as the player. If the face associated with the animal has a photo taken, it will be used as the animal sprite texture in game."
+    },
+    {
+      "name": "Autonomous Development",
+      "date": "(Jan - Feb 2014)(Jan - Feb 2015) (2 mos",
+      "place": "Canoas\\BR",
+      "description": "PHP system to store plant photos and data for academic purposes. It is like a gallery to expose the information collected in the other system with photos. Using MVC, Bootstrap, Jquery and MySql."
     },
     {
       "name": "DBServer ",
-      "date": "2014",
+      "date": "Feb 2014 - Nov 2014 (10 mos)",
       "place": "Porto Alegre\\BR",
       "description": "I've got this job after a good presentation in Students to Business. I've participated in three different projects, all in C# and SQL Server. Two were maintenance. The last was from beginning. The system was about material test control with laboratories and budget managements. The client was a government organ and they participate in meetings with my team after each Scrum sprint. In November I decided to stop working in web systems and start studing to work with programming games."
     },
     {
-      "name": "Autonomous Development",
-      "date": "2014",
-      "place": "Canoas\\BR",
-      "description": "Paid web PHP system to store plant data collected by the university. Using MVC, Jquery and MySq."
-    },
-    {
       "name": "Unilasalle",
-      "date": "2009-2013",
+      "date": "Jul 2009 - Nov 2013 (4 yrs 5 mos)",
       "place": "Canoas\\BR",
       "description": "I started as a probationer and finished as a middle programmer. I was learning the theoretical part of computation at university and the practice in this job. My job was to create programs for the internal administrative system, student portal and professor portal. The language and database was PHP and Oracle g10. Sometimes I converted old programs from the old system in VB Desktop to the new in PHP. In the last year on the job, I started going to meetings with department leaders to define future programs."
     }
@@ -266,7 +278,7 @@
       "description": [
         "Pac-Man is a maze chase video game. The player controls the titular character through an enclosed maze; the objective of the game is to eat all of the dots placed in the maze while avoiding four colored ghosts — Blinky (red), Pinky (pink), Inky (cyan), and Clyde (orange) — that pursue him. When all of the dots are eaten, the player advances to the next level. If Pac-Man makes contact with a ghost, he will lose a life; the game ends when all lives are lost. Each of the four ghosts have their own unique, distinct artificial intelligence (A.I.), or \"personalities\"; Blinky gives direct chase to Pac-Man, Pinky and Inky try to position themselves in front of Pac-Man, usually by cornering him, and Clyde will switch between chasing Pac-Man and fleeing from him",
         "Placed at the four corners of the maze are large flashing \"energizers\", or \"power pellets\". Eating these will cause the ghosts to turn blue with a dizzied expression and reverse direction. Pac-Man can eat blue ghosts for bonus points; when eaten, their eyes make their way back to the center box in the maze. Eating multiple blue ghosts in succession increases their point value. Blue-colored ghosts will flash white when they are about to turn back into their normal, lethal form. Eating a certain number of dots in a level will cause a bonus item, usually in the form of a fruit, to appear underneath the regeneration box, which can be eaten for bonus points.",
-        "The game increases in difficulty as the player progresses; the ghosts become faster and the power pellets decrease in length, to the point where the ghosts will no longer turn blue and edible. To the sides of the maze are two large \"warp tunnels\", which allow Pac-Man and the ghosts to travel to the opposite side of the screen. Ghosts become slower when entering and exiting these tunnels. Levels are indicated by the fruit icon at the bottom of the screen. In-between levels are short cutscenes featuring Pac-Man and Blinky in humorous, comical situations. The game becomes unplayable at the 256th level due to an integer overflow that affects the game's memory, rendering this level unbeatable. <a href=\"https://en.wikipedia.org/wiki/Pac-Man\">Wiki</a>"
+        "The game increases in difficulty as the player progresses; the ghosts become faster and the power pellets decrease in length, to the point where the ghosts will no longer turn blue and edible. To the sides of the maze are two large \"warp tunnels\", which allow Pac-Man and the ghosts to travel to the opposite side of the screen. Ghosts become slower when entering and exiting these tunnels. Levels are indicated by the fruit icon at the bottom of the screen. In-between levels are short cutscenes featuring Pac-Man and Blinky in humorous, comical situations. The game becomes unplayable at the 256th level due to an integer overflow that affects the game's memory, rendering this level unbeatable. <a style=\"color: darkblue\" href=\"https://en.wikipedia.org/wiki/Pac-Man\">[Wiki]</a>"
       ],
       "details": {
         "genres": [ "Arcade" ],
@@ -275,7 +287,7 @@
         "lastUpdated": "30-Jan-2019"
       },
       "production": {
-        "motivation": "Remake created as a test in a game studio",
+        "motivation": "Remake created as a test in a game studio. They gave me one week to do and this is what I created in my spare time.",
         "history": [
           {
             "name": "0.1.0 – Stable",
@@ -635,7 +647,7 @@
       "image": "img/portfolio/cube.png",
 
       "description": [
-        "This game is an auxiliary software. A toy called Cubo de Desenhar (Cube Drawing, in English) is a product of a LudYx store. This project was remunerated. Me and Natanael Rey (responsible to Game Design and Art).",
+        "This game is an auxiliary software. A toy called Cubo de Desenhar (Drawing Cube, in English) is a product of a LudYx store. Me and Natanael Rey (responsible to Game Design and Art).",
         "The toy allows kids to draw on all cubes faces. Each faces has an animal borders drawn. With this game, the kids can import theirs draws by taking photos. For every face (will be) a unique game using a sprite cut from the photo put in the correspondent face. It allows them to play games with theirs draw.",
         "Others minigames will be produce when the client contact us again."
       ],
@@ -646,7 +658,7 @@
         "lastUpdated": "14-Dec-2015"
       },
       "production": {
-        "motivation": "In progress!",
+        "motivation": "LudYx store contacted Natanael to tell about the project. He accepted and asked me to join. So we created this prototype.",
         "history": [
           {
             "name": "0.0.1 – Prototype",
@@ -688,7 +700,7 @@
         "lastUpdated": "14-Apr-2015"
       },
       "production": {
-        "motivation": "In progress!",
+        "motivation": "Me and Natanael wanted to create a good gameplay of a character that flies like Iron-man does.",
         "history": [
           {
             "name": "0.0.1 – Prototype",
