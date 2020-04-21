@@ -160,7 +160,7 @@ function setGamePageButton(localPage) {
         return;
     }
     gamePage.removeClass("d-none");
-    gamePage.attr("href", "Games.html?" + localPage);
+    gamePage.attr("href", "pages/Games.html?" + localPage);
 }
 
 //Skills
