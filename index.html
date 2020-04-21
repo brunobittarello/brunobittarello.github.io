@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -66,15 +66,15 @@
             <h3 class="masthead-subheading mb-0">Programmer - Game Designer - Web Developer</h3>
             <hr>
             <div class="row">
-                <div style="cursor:pointer" onclick="onPersonalInfoClicked(0)">
+                <div class="col" style="cursor:pointer" onclick="onPersonalInfoClicked(0)">
                     <img src="img/portfolio/personal.png" class="img-fluid bio-icons" alt="">
                     <div>Bio</div>
                 </div>
-                <div style="cursor:pointer" onclick="onPersonalInfoClicked(1)">
+                <div class="col" style="cursor:pointer" onclick="onPersonalInfoClicked(1)">
                     <img src="img/portfolio/education.png" class="img-fluid bio-icons" alt="">
                     <div>Edu</div>
                 </div>
-                <div style="cursor:pointer" onclick="onPersonalInfoClicked(2)">
+                <div class="col" style="cursor:pointer" onclick="onPersonalInfoClicked(2)">
                     <img src="img/portfolio/professional.png" class="img-fluid bio-icons" alt="" title="Professional">
                     <div>Pro</div>
                 </div>
@@ -109,7 +109,7 @@
                 </div>
             </div>
 
-            <div id="gamesContainer"></div>
+            <div id="gamesContainer" class="row" />
         </div>
     </section>
 
@@ -143,24 +143,7 @@
                 <div class="modal-body text-center">
                     <h2 id="infoTitle">Personal</h2>
                     <hr class="star-primary">
-                    <div id="infoData">
-                        <h3>Objective</h3>
-                        <p>Work in a game studio as programmer.</p>
-                        <br />
-                        <h3>Summary</h3>
-                        <p class="text-justify paragraph-tab">I'm a programmer since 2010. In all these years I've been working in Web Systems in small teams (4-6 people). In 2013 I started using Unity by my own, after 6 months using GameMaker.</p>
-                        <h3>Bio</h3>
-                        <p class="text-justify paragraph-tab">I was born in 1992, Porto Alegre, Brazil. I was 7 year old when I started to use computer. Playing game was my main activity years later, making me want to work with it.</p>
-                        <br />
-                        <p class="text-justify paragraph-tab">Nowadays I'm capable of making games and simulators. Other areas that I like and have some expirience are Artificial Intelligence and Microprocessors Programming. Extra information, I can...</p>
-                        <ul class="text-left">
-                            <li>...play many instruments</li>
-                            <li>...compose</li>
-                            <li>...edit videos</li>
-                            <li>...model in 3D</li>
-                            <li>...animate</li>
-                        </ul>
-                    </div>
+                    <div id="infoData" />
                     <br />
                     <button class="btn btn-danger" data-dismiss="modal">Close</button>
                 </div>

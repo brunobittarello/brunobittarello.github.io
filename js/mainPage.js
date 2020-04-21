@@ -99,14 +99,8 @@ function createParagraphText(text) {
 //Games Selection
 function populateGames(games) {
     var gamesContainer = $("#gamesContainer");
-    var row;
     for (let i in games) {
-        if (i % 3 == 0) {
-            row = $("<div class=\"row\"></div>");
-            gamesContainer.append(row);
-        }
-        row.append(createGameIcon(i, games[i]));
-
+        gamesContainer.append(createGameIcon(i, games[i]));
     }
 }
 
