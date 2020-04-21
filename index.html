@@ -11,11 +11,8 @@
 
     <title>Bruno Bittarello - Portfolio</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Theme CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/freelancer.min.css" rel="stylesheet">
     <link href="css/bittarello.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
@@ -32,83 +29,61 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Bruno Bittarello</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Bruno Bittarello</a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#games">Games</a>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#games">Games</a>
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
-    <header>
-        <div id="me" class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Bruno Bittarello</span>
-                        <span class="skills">brunobittarello@gmail.com</span>
-                        <hr>
-                        <span class="skills">Game Programmer - Game Designer - Web Developer</span>
-                    </div>
-                </div>
-            </div>
 
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+        <div id="me" class="container d-flex align-items-center flex-column">
+            <img class="masthead-avatar mb-5" src="img/profile.png" alt="">
+            <h2 class="masthead-heading text-uppercase mb-0">Bruno Bittarello</h2>
+            <hr>
+            <h3 class="masthead-subheading mb-0">brunobittarello@gmail.com</h3>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+            </div>
+            <h3 class="masthead-subheading mb-0">Programmer - Game Designer - Web Developer</h3>
+            <hr>
             <div class="row">
-                <div class="col-sm-4 portfolio-item" onclick="onPersonalInfoClicked(0)">
-                    <a href="#personalModal" class="portfolio-link" data-toggle="modal">
-                        <img src="img/portfolio/personal.png" class="img-responsive" alt="">
-                        <div class="intro-text">
-                            <span class="skills">Bio</span>
-                        </div>
-                    </a>
+                <div style="cursor:pointer" onclick="onPersonalInfoClicked(0)">
+                    <img src="img/portfolio/personal.png" class="img-fluid bio-icons" alt="">
+                    <div>Bio</div>
                 </div>
-                <div class="col-sm-4 portfolio-item" onclick="onPersonalInfoClicked(1)">
-                    <a href="#personalModal" class="portfolio-link" data-toggle="modal">
-                        <img src="img/portfolio/education.png" class="img-responsive" alt="">
-                        <div class="intro-text">
-                            <span class="skills">Edu</span>
-                        </div>
-                    </a>
+                <div style="cursor:pointer" onclick="onPersonalInfoClicked(1)">
+                    <img src="img/portfolio/education.png" class="img-fluid bio-icons" alt="">
+                    <div>Edu</div>
                 </div>
-                <div class="col-sm-4 portfolio-item" onclick="onPersonalInfoClicked(2)">
-                    <a href="#personalModal" class="portfolio-link" data-toggle="modal">
-                        <img src="img/portfolio/professional.png" class="img-responsive" alt="">
-                        <div class="intro-text">
-                            <span class="skills">Pro</span>
-                        </div>
-                    </a>
+                <div style="cursor:pointer" onclick="onPersonalInfoClicked(2)">
+                    <img src="img/portfolio/professional.png" class="img-fluid bio-icons" alt="" title="Professional">
+                    <div>Pro</div>
                 </div>
             </div>
+        </div>
     </header>
 
     <!-- Skills Section -->
-    <section id="skills">
+    <section id="skills" class="page-section portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center section-header">
@@ -116,7 +91,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-8 offset-lg-2 text-center">
                     <p class="section-subhead text-justify paragraph-tab">This section covers a graphic representation of my skills. The amount of points represents an approximate average of knowledge, experiences and security to work with it. It goes from 1 point which means "I know something" to 5 points which means "I'm fully capable to work with".</p>
                 </div>
             </div>
@@ -126,12 +101,11 @@
     </section>
 
     <!-- Games Section -->
-    <section class="success" id="games">
+    <section id="games" class="page-section bg-primary text-white mb-0">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center section-header">
                     <h1>Games</h1>
-                    <br />
                 </div>
             </div>
 
@@ -139,65 +113,56 @@
         </div>
     </section>
 
-
     <!-- Footer -->
-    <nav id="footNav" class="navbar navbar-default navbar-fixed-bottom navbar-footer-custom text-center">
+    <nav id="footNav" class="navbar navbar-default navbar-fixed-bottom navbar-footer-custom">
         <div class="container">
-            <div class="row ">
-                <div class="col-lg-12">
-                    <a href="https://www.facebook.com/bruno.bittarello" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                    <a href="https://www.twitter.com/bittarello" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/brunobittarello" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                </div>
+            <div class="row col-lg-12 d-flex justify-content-center">
+                <a href="https://www.facebook.com/bruno.bittarello" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                <a href="https://www.twitter.com/bittarello" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/brunobittarello" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
             </div>
         </div>
     </nav>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
+    <div class="scroll-to-top d-lg-none position-fixed ">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
 
-
     <!-- Personal Modal -->
-    <div class="portfolio-modal modal fade" id="personalModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+    <div class="portfolio-modal modal fade" id="personalModal" tabindex="-1" role="dialog" aria-labelledby="personalModal" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>-->
+                <div class="modal-body text-center">
+                    <h2 id="infoTitle">Personal</h2>
+                    <hr class="star-primary">
+                    <div id="infoData">
+                        <h3>Objective</h3>
+                        <p>Work in a game studio as programmer.</p>
+                        <br />
+                        <h3>Summary</h3>
+                        <p class="text-justify paragraph-tab">I'm a programmer since 2010. In all these years I've been working in Web Systems in small teams (4-6 people). In 2013 I started using Unity by my own, after 6 months using GameMaker.</p>
+                        <h3>Bio</h3>
+                        <p class="text-justify paragraph-tab">I was born in 1992, Porto Alegre, Brazil. I was 7 year old when I started to use computer. Playing game was my main activity years later, making me want to work with it.</p>
+                        <br />
+                        <p class="text-justify paragraph-tab">Nowadays I'm capable of making games and simulators. Other areas that I like and have some expirience are Artificial Intelligence and Microprocessors Programming. Extra information, I can...</p>
+                        <ul class="text-left">
+                            <li>...play many instruments</li>
+                            <li>...compose</li>
+                            <li>...edit videos</li>
+                            <li>...model in 3D</li>
+                            <li>...animate</li>
+                        </ul>
                     </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2 id="infoTitle">Personal</h2>
-                            <hr class="star-primary">
-                            <div id="infoData">
-                                <h3>Objective</h3>
-                                <p>Work in a game studio as programmer.</p>
-                                <br />
-                                <h3>Summary</h3>
-                                <p class="text-justify paragraph-tab">I'm a programmer since 2010. In all these years I've been working in Web Systems in small teams (4-6 people). In 2013 I started using Unity by my own, after 6 months using GameMaker.</p>
-                                <h3>Bio</h3>
-                                <p class="text-justify paragraph-tab">I was born in 1992, Porto Alegre, Brazil. I was 7 year old when I started to use computer. Playing game was my main activity years later, making me want to work with it.</p>
-                                <br />
-                                <p class="text-justify paragraph-tab">Nowadays I'm capable of making games and simulators. Other areas that I like and have some expirience are Artificial Intelligence and Microprocessors Programming. Extra information, I can...</p>
-                                <ul class="text-left">
-                                    <li>...play many instruments</li>
-                                    <li>...compose</li>
-                                    <li>...edit videos</li>
-                                    <li>...model in 3D</li>
-                                    <li>...animate</li>
-                                </ul>
-                            </div>
-                            <br />
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
-                        </div>
-                    </div>
+                    <br />
+                    <button class="btn btn-danger" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
@@ -205,32 +170,31 @@
 
 
     <!-- Portfolio Modal -->
-    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2 id="gameTitle">Game Title</h2>
-                            <hr class="star-primary">
-                            <img id="gameImage" src="img/portfolio/sprawl.png" class="img-responsive img-centered" alt="">
-                            <p id="gameDescription">Game description.</p>
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-labelledby="portfolioModal" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10">
+                                <div class="modal-body">
+                                    <h2 id="gameTitle" class="portfolio-modal-title text-secondary text-uppercase mb-0">Game Title</h2>
+                                    <hr class="star-primary">
+                                    <img id="gameImage" src="img/portfolio/sprawl.png" class="img-fluid img-centered" alt="">
+                                    <p id="gameSummary">Game summary.</p>
 
-                            <ul class="list-inline item-details">
-                                <li>Date:
+                                    <ul class="list-inline item-details">
+                                        <li>Date:
                                     <strong id="gameDate">November 2018</strong>
-                                </li>
-                                <li id="gamePlatform">Platform:
-                                </li>
-                            </ul>
+                                        </li>
+                                        <li id="gamePlatform">Platform:
+                                        </li>
+                                    </ul>
 
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                                    <a id="gamePage" class="btn btn-info" href="https://www.google.com" target="_blank">View Page</a>
+                                    <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -239,25 +203,27 @@
     </div>
 
     <!-- Templates -->
-    <div style="display:none">
-        <a id="templGamePlatformLink" class="paragraph-tab-half" href="https://apps.apple.com/us/app/starlit-on-wheels-super-kart/id1352078840" target="_blank">
+    <div style="display: none">
+        <!-- Platform link -->
+        <a id="templGamePlatformLink" class="paragraph-tab-half" href="https://apps.apple.com/us/app/starlit-on-wheels-super-kart/id1352078840" target="_blank" style="color: darkblue">
             <strong>Iphone</strong>
         </a>
         <strong id="templGamePlatform">Android</strong>
-        <div id="templGameIcon" class="col-sm-4 game-icon">
-            <img src="img/portfolio/starlitOnWheelsIcon.jpg" class="img-responsive" alt="">
+        <!-- Game Icon -->
+        <div id="templGameIcon" class="col-md-6 col-lg-4 game-icon">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <img src="img/portfolio/starlitOnWheelsIcon.jpg" class="img-fluid" alt="">
+            </div>
         </div>
     </div>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
-    
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
 

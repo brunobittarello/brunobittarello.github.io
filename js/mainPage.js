@@ -6,15 +6,15 @@ var data;
 
 $(document).ready(function () {
     console.log("ready!");
-    loadData()
+    loadData();
 });
 
 function loadData() {
     $.getJSON("https://gist.githubusercontent.com/brunobittarello/e7a3fabf7a6c2e72d13a69ef492fec11/raw/teste.json", function (json) {
         data = json;
         //console.log(json);
-        populateGames(data.games)
-        popualteSkillSelections(data.skillSections)
+        populateGames(data.games);
+        popualteSkillSelections(data.skillSections);
     });
 }
 
@@ -30,7 +30,7 @@ function onPersonalInfoClicked(id) {
         var infoData = $("#infoData");
         infoData.empty();
         infoData.append(html);
-        //$("#personalModal").modal();
+        $("#personalModal").modal();
     }
 }
 
@@ -116,7 +116,7 @@ function createGameIcon(id, game) {
     var html = $("#templGameIcon").clone();
     html.removeAttr("id");
     html.click(function () { onGameIconClicked(id); });
-    html.children(0).attr("src", game.icon);
+    html.children(0).children(0).attr("src", game.icon);
 
     return html;
 }
@@ -130,7 +130,7 @@ function onGameIconClicked(id) {
 
 function populateGameInfo(game) {
     $("#gameTitle").text(game.name);
-    $("#gameDescription").text(game.description);
+    $("#gameSummary").text(game.summary);
     $("#gameImage").attr("src", game.image);
     $("#gameDate").text(game.date);
 
@@ -149,6 +149,18 @@ function populateGameInfo(game) {
             platformHtml.text(platform.name)
         platformHtml.removeAttr("id");
     }
+
+    setGamePageButton(game.localPage)
+}
+
+function setGamePageButton(localPage) {
+    const gamePage = $("#gamePage");
+    if (localPage == "") {
+        gamePage.addClass("d-none");
+        return;
+    }
+    gamePage.removeClass("d-none");
+    gamePage.attr("href", "Games.html?" + localPage);
 }
 
 //Skills
@@ -170,7 +182,7 @@ function createSkillSection(skillSec) {
 }
 
 function createSkill(name, level) {
-    var html = "<div class=\"row text-center col-sm-offset-3\"> <div class=\"col-sm-4\"> <h4>" + name + "</h4> </div>";
+    var html = "<div class=\"row text-center offset-sm-3\"> <div class=\"col-sm-4\"> <h4>" + name + "</h4> </div>";
     html += "<div class=\"col-sm-4\">";
 
     for (var i = 0; i < 5; i++)

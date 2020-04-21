@@ -212,8 +212,10 @@
   "games": [
     {
       "name": "Starlit On Wheels: Super Kart",
-      "description": "Welcome to the ride of your life with the heroes from Starlit Adventures: Bo and Kikki! Help Bo and Kikki on a thrilling chase to recover the stars that the villain Nuru has stolen to power his magical motor. During this exciting journey you'll confront breathtaking tracks and obstacles, and be challenged by enemies and creatures from the Starlit universe in championships full of fun and adventure. Along the way, you'll drive remarkable cars with special powers. While you enjoy this journey to save your friends, you'll upgrade your cars, collect rewards, assemble a trophy room and create your own tracks that other players can race and evaluate!",
+      "summary": "Welcome to the ride of your life with the heroes from Starlit Adventures: Bo and Kikki! Help Bo and Kikki on a thrilling chase to recover the stars that the villain Nuru has stolen to power his magical motor. During this exciting journey you'll confront breathtaking tracks and obstacles, and be challenged by enemies and creatures from the Starlit universe in championships full of fun and adventure. Along the way, you'll drive remarkable cars with special powers. While you enjoy this journey to save your friends, you'll upgrade your cars, collect rewards, assemble a trophy room and create your own tracks that other players can race and evaluate!",
       "date": "November 2018",
+      "localPage": "",
+      "externalPage": "",
       "platforms": [
         {
           "name": "Iphone",
@@ -228,9 +230,11 @@
       "image": "img/portfolio/starlitOnWheels.png"
     },
     {
-      "name": "Starlit On Wheels: Super Kart",
-      "description": "Become the greatest Archer in Starlit universe! Play with your favorite characters and enjoy the story-line from the universe introduced in the award-winning game Starlit Adventures!",
+      "name": "Starlit Archery Club",
+      "summary": "Become the greatest Archer in Starlit universe! Play with your favorite characters and enjoy the story-line from the universe introduced in the award-winning game Starlit Adventures!",
       "date": "September 2017",
+      "localPage": "",
+      "externalPage": "",
       "platforms": [
         {
           "name": "Iphone",
@@ -246,8 +250,10 @@
     },
     {
       "name": "Pac-Man",
-      "description": "",
+      "summary": "",
       "date": " April 2018",
+      "localPage": "pacman",
+      "externalPage": "",
       "platforms": [
         {
           "name": "Windows",
@@ -255,12 +261,38 @@
         }
       ],
       "icon": "img/portfolio/pacman2.png",
-      "image": "img/portfolio/pacman.png"
+      "image": "img/portfolio/pacman.png",
+
+      "description": [ "In progress!" ],
+      "details": {
+        "genres": [ "Arcade" ],
+        "localPlayerTotal": 1,
+        "onlinePlayerTotal": 0,
+        "lastUpdated": "14-Apr-2015"
+      },
+      "production": {
+        "motivation": "In progress!",
+        "history": [
+          {
+            "name": "0.0.1 – Prototype",
+            "date": "14-Ago-2015",
+            "objective": "In progress!"
+          }
+        ]
+      },
+      "media": {
+        "screenshots": [],
+        "videos": [
+          "https://www.youtube.com/embed/uxoW6VE1Oak"
+        ]
+      }
     },
     {
       "name": "The Magic Tower",
-      "description": "Wizards with the ability to conjure elements to cast powers will fight against waves of monsters inside the tower. Sometimes, they brawl with each other to decide who is the best caster.",
+      "summary": "Wizards with the ability to conjure elements to cast powers will fight against waves of monsters inside the tower. Sometimes, they brawl with each other to decide who is the best caster.",
       "date": "November 2016",
+      "localPage": "tower",
+      "externalPage": "",
       "platforms": [
         {
           "name": "Windows",
@@ -268,12 +300,53 @@
         }
       ],
       "icon": "img/portfolio/TheMagicTower16x9.png",
-      "image": "img/portfolio/TheMagicTower16x9.png"
+      "image": "img/portfolio/TheMagicTower16x9.png",
+
+      "description": [
+        "Wizards with the ability to conjure elements to cast powers will fight against waves of monsters inside the tower. Sometimes, they brawl with each other to decide who is the best caster.",
+        "Combining elements, like fire with water to use steam, the player can craft power to destroy its target. Adding fire to any power will cause burning in any creature hit, including the wizard whom cast it."
+      ],
+      "details": {
+        "genres": [ "Brawl", "2D arena" ],
+        "localPlayerTotal": 2,
+        "onlinePlayerTotal": 2,
+        "lastUpdated": "24-Nov-2016"
+      },
+      "production": {
+        "motivation": "I've imagined who cool it would be if Magicka mixed with TowerFall Ascention. The creation process was different than any other I've already experienced. I have to mix two solid and stable games in one without know if it would be fun as well. As the project was going further, I saw some future on it. The current state doesn't have a lot of magics and combinations, but already demonstrate a good gameplay. Creating all the art and animation, like in Sprawl Celerity, make the project much harder. I'm growing up in this area but with a cost of patience and time.",
+        "remarks": [
+          "Unet (Unity Network);",
+          "Custom Shader;",
+          "Tiled integration;",
+          "All 3D objects created by me (except the goblin enemy, created by Matheus);",
+          "Personal Framework;"
+        ],
+        "history": [
+          {
+            "name": "0.0.1 – Prototype",
+            "date": "03-Set-2016",
+            "objective": "Test main features and inputs to use."
+          },
+          {
+            "name": "0.0.2 – Enemies",
+            "date": "24-Nov-2016",
+            "objective": "Coop and versus working."
+          }
+        ]
+      },
+      "media": {
+        "screenshots": [],
+        "videos": [
+          "https://www.youtube.com/embed/rFqSklQ--tM"
+        ]
+      }
     },
     {
       "name": "Sprawl Celerity",
-      "description": "Sprawl Celerity is a futuristic 3D Battle-Racing video game with fast cars, powerful weapons and tracks in different scenarios, designed for PC with support for local and networked play.",
+      "summary": "Sprawl Celerity is a futuristic 3D Battle-Racing video game with fast cars, powerful weapons and tracks in different scenarios, designed for PC with support for local and networked play.",
       "date": "July 2016",
+      "localPage": "sprawl",
+      "externalPage": "",
       "platforms": [
         {
           "name": "Windows",
@@ -281,29 +354,159 @@
         }
       ],
       "icon": "img/portfolio/sprawl.png",
-      "image": "img/portfolio/sprawl.png"
+      "image": "img/portfolio/sprawl.png",
+
+      "description": [
+        "Sprawl Celerity have a focus on speed, the idea is to make players feel they are driving a fast race car, and not a killing machine. But we want to provoke that nervous feeling on the players, especially the ones leading, since they are more propitious to being hit by weapons, this make the win feel much more rewarding. While weapons are an important part of the game, they are not required to succeed."
+      ],
+      "details": {
+        "genres": [ "Race" ],
+        "localPlayerTotal": 1,
+        "onlinePlayerTotal": 8,
+        "lastUpdated": "14-Jul-2016"
+      },
+      "production": {
+        "motivation": "My personal motivation is from an old game named Dethkarz. I've played a lot in my childhood and I never found something like that. When I've discovered it would must create a large game project in the end of the game development course, I decided to create a game like Dethkarz. Plauto accepted my invite to do this project with me. He is a programmer, so we two didn't have an artist to create models. Because of that, I got the art part and it was a good challenge for me.",
+        "remarks": [
+          "Custom tools to create tracks faster;",
+          "Unet (Unity Network);",
+          "Lighting and occlusion maps;",
+          "Some 3D objects created or adapted by me;",
+          "Personal Framework;",
+          "Demo mode;"
+        ],
+        "history": [
+          {
+            "name": "0.0.1 – Prototype",
+            "date": "11-Feb-2016",
+            "objective": "Test main features and see how it works."
+          },
+          {
+            "name": "0.0.2 – Race mode",
+            "date": "30-Apr-2016",
+            "objective": "Race mode improved and AI cars added."
+          },
+          {
+            "name": "0.0.3 – GDD",
+            "date": "05-May-2016",
+            "objective": "Game design document created with art mocks."
+          },
+          {
+            "name": "0.0.4 – Vertical Slice",
+            "date": "10-Jun-2016",
+            "objective": "Game with all main features working."
+          },
+          {
+            "name": "0.1.0 – Beta",
+            "date": "14-Jul-2016",
+            "objective": "Game expirience finalized."
+          },
+          {
+            "name": "0.1.1 – Sounds",
+            "date": "09-Ago-2016",
+            "objective": "Soundtracks and more sound effects added."
+          }
+        ]
+      },
+      "media": {
+        "screenshots": [],
+        "videos": [ "https://www.youtube.com/embed/iRgab48-QGU" ]
+      }
     },
     {
       "name": "Jump 'n Bump",
-      "description": "Jump 'n Bump is a deathmatch competition among rabbits. The player must step over other rabbit to kill it. The rabbit whose kill the most wins!",
+      "summary": "Jump 'n Bump is a deathmatch competition among rabbits. The player must step over other rabbit to kill it. The rabbit whose kill the most wins!",
       "date": "April 2015",
+      "localPage": "jump",
+      "externalPage": "",
       "platforms": [
         {
-          "name": " Android",
-          "link": ""
+          "name": "Android",
+          "link": "https://drive.google.com/open?id=0BywrL8k68fEPX2F0WjVWV1QxaUE"
         },
         {
           "name": "Windows",
-          "link": ""
+          "link": "https://drive.google.com/open?id=0BywrL8k68fEPbVR4bzdFajc1djA"
         }
       ],
       "icon": "img/portfolio/jump.png",
-      "image": "img/portfolio/jump.png"
+      "image": "img/portfolio/jump.png",
+      "description": [
+        "Jump ‘n Bump is a remake of a demo created in 1998 by Brainchild Design. Its code was released as public domain in 1999. I recreated the game logic and physics, without the original code, in Unity. I used the original sprites and audios.",
+        "The game’s theme is a deathmatch competition among rabbits. The player controls one rabbits and must step over other rabbit to kill it. The only controls are horizontal move and jump. There is no time up or max point, the players decides to end.",
+        "\"I improved this game adding more features. I created an IA to control a rabbit if the player set it. It allows single player game which wasn't possible in original version. Screens were added to configure match and game options, also splash screens were added.",
+        "\"Online and portability were implemented. Playing in online mode is possible and compatible with others platforms (ex: pc x android). Those feature wasn't present in original game too."
+      ],
+      "details": {
+        "genres": [ "Party", "Versus" ],
+        "localPlayerTotal": 4,
+        "onlinePlayerTotal": 4,
+        "lastUpdated": "10-Apr-2015"
+      },
+      "production": {
+        "motivation": "My cousins introduced me to this demo game when I was young. We played it a lot even with only one level available. That was fun. When I got knowledge enough to create games by myself, I decided to start doing a remake of this game. Jump ‘n Bump has a simplicity that I needed to begin make games. Some weeks after, I played my remake with my mother and my sisters and we had the same fun as I had playing the original in the pass.",
+        "history": [
+          {
+            "name": "0.0.1 – Prototype",
+            "date": "02-Dec-2014",
+            "objective": "Recreate the same level of the original game with four players playable."
+          },
+          {
+            "name": "0.0.2 – Alpha Improvements",
+            "date": "20-Dec-2014",
+            "objective": "Temporary UI and resolution stabilization. Bugs fixed and gameplay improved."
+          },
+          {
+            "name": "0.0.3 – Alpha Layout",
+            "date": "01-Jan-2015",
+            "objective": "UI remodeled. Interfaced responds standards resolutions and aspect ratios."
+          },
+          {
+            "name": "0.0.4 – Alpha Online",
+            "date": "17-Jan-2015",
+            "objective": "Online match feature added."
+          },
+          {
+            "name": "0.0.5 – Alpha Android",
+            "date": "04-Mar-2015",
+            "objective": "Android compatibility added. English and Portuguese can be selected now."
+          },
+          {
+            "name": "0.1.0 – Beta IA",
+            "date": "10-Mar-2015",
+            "objective": "AI (Artificial Intelligence) available to control rabbits to play against human players."
+          },
+          {
+            "name": "1.0.0 – Release",
+            "date": "24-Ago-2015",
+            "objective": "Pathfinding updated. Androind controls defined to IA for other players."
+          }
+        ]
+      },
+      "media": {
+        "screenshots": [
+          {
+            "title": "Menus",
+            "description": "Defines what rabbits are going to play.",
+            "link": "img/screenshots/jump1.png"
+          },
+          {
+            "title": "Stage",
+            "description": "Original game stage.",
+            "link": "img/screenshots/jump2.png"
+          }          
+        ],
+        "videos": [
+          "https://www.youtube.com/embed/w2jwDkmjmhc"
+        ]
+      }
     },
     {
       "name": "Galaga",
-      "description": "Galaga is a classic arcade game. I've recreated it using Monogame for 2D Programming class work.",
+      "summary": "Galaga is a classic arcade game. I've recreated it using Monogame for 2D Programming class work.",
       "date": "June 2015",
+      "localPage": "galaga",
+      "externalPage": "",
       "platforms": [
         {
           "name": "Windows",
@@ -311,40 +514,141 @@
         }
       ],
       "icon": "img/portfolio/galaga.png",
-      "image": "img/portfolio/galaga.png"
+      "image": "img/portfolio/galaga.png",
+
+      "description": [
+        "Galaga is a space shooter game that was very popular in arcades. The player controls a space chip that must destroy all aliens which appear in its view. Enemies will shot back, dive in your direction and try to abduct the player's chip. Every wave defeated will increase the difficulty.",
+        "For the future, I will implement the rest of the basic galaga feature like rescue a captured galaga fight. I've already done the two Galagas together, but transport the fighter behind the boss is another difficult challange.",
+        "This game has a lot of versions. This remake is focus on Galaga 1981 for arcades."
+      ],
+      "details": {
+        "genres": [ "Arcade", "Shot'em up" ],
+        "localPlayerTotal": 1,
+        "onlinePlayerTotal": 0,
+        "lastUpdated": "16-Ago-2016"
+      },
+      "production": {
+        "motivation": "My Professor has given me a lesson to remake an arcade game using Monogame (open source version o XNA). Galaga has some easy and hard issues. One of the easy was the fact that I have a few physics collisions and constraints. One of the hard one to me (and for everybody in the class that chose Galaga) was to create and manage the formations. It needed a lot of math formulas!",
+        "history": [
+          {
+            "name": "0.0.1 – Prototype",
+            "date": "5-May-2015",
+            "objective": "Prototypes for multiple functionalities in separate. Monogame engine adaptation."
+          },
+          {
+            "name": "0.0.2 – Union",
+            "date": "16-Jun-2015",
+            "objective": "Add all prototypes in the same project and test. Add more functionalities."
+          },
+          {
+            "name": "0.0.3 – Apresentation",
+            "date": "28-Jun-2015",
+            "objective": "Remove some bugs and create menu with videos to give the idea."
+          }
+        ]
+      },
+      "media": {
+        "screenshots": [ ],
+        "videos": [ "https://www.youtube.com/embed/87MYN2sWios" ]
+      }
     },
     {
       "name": "Drawing Cube",
-      "description": "This game is an auxiliary toy game. The toy allows kids to draw on all cubes faces where each face has an animal borders drawn. With this game, the kids can import theirs draws by taking photos. For every face (will be) an unique game using a sprite cut from the photo put in the correspondent face. It allows them to play games with theirs draw.",
+      "summary": "This game is an auxiliary toy game. The toy allows kids to draw on all cubes faces where each face has an animal borders drawn. With this game, the kids can import theirs draws by taking photos. For every face (will be) an unique game using a sprite cut from the photo put in the correspondent face. It allows them to play games with theirs draw.",
       "date": "Dec 2015",
+      "localPage": "cube",
+      "externalPage": "",
       "platforms": [
         {
-          "name": "Iphone",
-          "link": ""
+          "name": "Android",
+          "link": "https://drive.google.com/open?id=0BywrL8k68fEPcFZCZi1rUHF3M0U"
+        },
+        {
+          "name": "Windows",
+          "link": "https://drive.google.com/open?id=0BywrL8k68fEPOVlZZnZxZTBNUVE"
         }
       ],
       "icon": "img/portfolio/cube.png",
-      "image": "img/portfolio/cube.png"
+      "image": "img/portfolio/cube.png",
+
+      "description": [
+        "This game is an auxiliary software. A toy called Cubo de Desenhar (Cube Drawing, in English) is a product of a LudYx store. This project was remunerated. Me and Natanael Rey (responsible to Game Design and Art).",
+        "The toy allows kids to draw on all cubes faces. Each faces has an animal borders drawn. With this game, the kids can import theirs draws by taking photos. For every face (will be) a unique game using a sprite cut from the photo put in the correspondent face. It allows them to play games with theirs draw.",
+        "Others minigames will be produce when the client contact us again."
+      ],
+      "details": {
+        "genres": [ "Kids", "Toy software", "Mobile" ],
+        "localPlayerTotal": 1,
+        "onlinePlayerTotal": 0,
+        "lastUpdated": "14-Dec-2015"
+      },
+      "production": {
+        "motivation": "In progress!",
+        "history": [
+          {
+            "name": "0.0.1 – Prototype",
+            "date": "14-Ago-2015",
+            "objective": "Definitions of how the game should be. Testing all main features after adding more."
+          }
+        ]
+      },
+      "media": {
+        "screenshots": [
+          "img/screenshots/cube1.png",
+          "img/screenshots/cube2.png"
+        ],
+        "videos": []
+      }
     },
     {
       "name": "Project Boosters",
-      "description": "It isn't a game yet. It is just a concept right now. I have some ideas but I'm busy with other projects. Probably it will be an adventure with fire powers with puzzles and bosses to defeat. Would you like it?",
+      "summary": "It isn't a game yet. It is just a concept right now. I have some ideas but I'm busy with other projects. Probably it will be an adventure with fire powers with puzzles and bosses to defeat. Would you like it?",
       "date": "",
+      "localPage": "boosters",
+      "externalPage": "",
       "platforms": [
         {
           "name": "Windows",
-          "link": ""
+          "link": "https://drive.google.com/file/d/0BywrL8k68fEPcW51YlBlQU1NRHc/view"
         }
       ],
       "icon": "img/portfolio/boosters.png",
-      "image": "img/portfolio/boosters.png"
+      "image": "img/portfolio/boosters.png",
+
+      "description": [
+        "This is a concept of a future game. Me and Natanael Rey, who is a 3D artist and my classmate in Game specialization, started this project. We have some features in mind that will soon be added in project."
+      ],
+      "details": {
+        "genres": [ "Plataform", "Adventure" ],
+        "localPlayerTotal": 1,
+        "onlinePlayerTotal": 0,
+        "lastUpdated": "14-Apr-2015"
+      },
+      "production": {
+        "motivation": "In progress!",
+        "history": [
+          {
+            "name": "0.0.1 – Prototype",
+            "date": "14-Ago-2015",
+            "objective": "Definitions of how the game should be. Testing all main features after adding more."
+          }
+        ]
+      },
+      "media": {
+        "screenshots": [],
+        "videos": [
+          "https://www.youtube.com/embed/uxoW6VE1Oak"
+        ]
+      }
     }
   ],
   "otherGames": [
     {
       "name": "Bomberman 3D",
-      "description": "Bomberman 3D is a game based on the classic Bomberman games. The difference it is a 3D game in first person. It features campaign mode, battle local and battle online.",
+      "summary": "Bomberman 3D is a game based on the classic Bomberman games. The difference it is a 3D game in first person. It features campaign mode, battle local and battle online.",
       "date": "Dec 2015",
+      "localPage": "",
+      "externalPage": "",
       "platforms": [
         {
           "name": "Windows",
@@ -356,8 +660,10 @@
     },
     {
       "name": "Strategy Warriors",
-      "description": "Strategy Warriors is a pseudo turn-based game in progress. It’s genre is artillery with a mechanics which requires each team sets movements to all it’s pieces.",
+      "summary": "Strategy Warriors is a pseudo turn-based game in progress. It’s genre is artillery with a mechanics which requires each team sets movements to all it’s pieces.",
       "date": "May 2015",
+      "localPage": "",
+      "externalPage": "",
       "platforms": [
         {
           "name": "Windows",
