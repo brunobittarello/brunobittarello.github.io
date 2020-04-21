@@ -141,6 +141,6 @@ function getPlatformDownloadButton(platform) {
 }
 
 function getImageByPlatform(platformName) {
-    if (platformName == "Android") return "img/icons/Android-52.png";
-    return "img/icons/WindowsLogo-52.png";
+    if (platformName == "Android") return "/img/icons/Android-52.png";
+    return "/img/icons/WindowsLogo-52.png";
 }
