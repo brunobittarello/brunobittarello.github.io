@@ -10,7 +10,7 @@ $(document).ready(function () {
 });
 
 function loadData() {
-    $.getJSON("https://gist.githubusercontent.com/brunobittarello/e7a3fabf7a6c2e72d13a69ef492fec11/raw/teste.json", function (json) {
+    $.getJSON("https://raw.githubusercontent.com/brunobittarello/brunobittarello.github.io/master/data/mainPage.json", function (json) {
         data = json;
         //console.log(json);
         populateGames(data.games);

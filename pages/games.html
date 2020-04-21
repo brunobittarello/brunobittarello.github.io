@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div class="row">
-                <div id="gameDescription" class="col-lg-8 offset-lg-2">
+                <div id="gameDescription" class="col-lg-10 offset-lg-1">
                     <p class="section-subhead text-justify paragraph-tab">Description.</p>
                 </div>
             </div>
@@ -97,37 +97,43 @@
 
     <!-- Download Section -->
     <section id="download" class="page-section bg-primary text-white mb-0">
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
-                <div class="col-lg-12 text-center section-header">
+                <div class="col-lg-12 section-header">
                     <h1>Download</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 offset-lg-2 text-center">
+                <div class="col-lg-8 offset-lg-2">
                     <h3>Platforms</h3>
                 </div>
             </div>
             <div class="row">
-                <div id="gamePlatforms" class="col-lg-8 offset-lg-2 text-center">
+                <div id="gamePlatforms" class="col-lg-8 offset-lg-2">
                 </div>
             </div>
             <br />
             <div class="row">
-                <div class="col-lg-8 offset-lg-4">
+                <div class="col-12">
                     <h3>Details</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-8 offset-lg-4">
+            <div class="row section-p justify-content-center">
+                <div class="col-lg-2 col-md-3">
                     <strong>Genre:</strong>
-                    <p id="gameGenres" class="paragraph-tab-half">Versus</p>
+                    <p id="gameGenres">Versus</p>
+                </div>
+                <div class="col-lg-2 col-md-3">
                     <strong>Players local:</strong>
-                    <p id="gameLocalPlayers" class="paragraph-tab-half">2</p>
-                    <strong id="gameOnlinePlayersLabel">Players online:</strong>
-                    <p id="gameOnlinePlayers" class="paragraph-tab-half">2</p>
+                    <p id="gameLocalPlayers">2</p>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <strong>Players online:</strong>
+                    <p id="gameOnlinePlayers">2</p>
+                </div>
+                <div class="col-lg-2 col-md-3">
                     <strong>Last update:</strong>
-                    <p id="gameLastUpdate" class="paragraph-tab-half">26-Feb-2015</p>
+                    <p id="gameLastUpdate">26-Feb-2015</p>
                 </div>
             </div>
         </div>
@@ -141,23 +147,23 @@
                     <h1>Production</h1>
                 </div>
             </div>
-            <br />
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>Motivation</h3>
+                    <h2>Motivation</h2>
                 </div>
             </div>
             <div class="row">
-                <div id="gameMotivation" class="col-lg-8 offset-lg-2">
+                <div id="gameMotivation" class="col-lg-10 offset-lg-1">
                     <p class="section-subhead text-justify paragraph-tab">Motivation</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>History</h3>
+                    <h2>History</h2>
                 </div>
             </div>
-            <div id="gameHistoryContainer">
+            <hr />
+            <div id="gameHistoryContainer" class="row">
 
             </div>
         </div>
@@ -228,15 +234,13 @@
     <!-- Templates -->
     <div style="display: none">
         <!-- History -->
-        <div id="gameHistoryRowTemplate" class="row">
-            <div class="col-lg-8">
-                <h5 class="gameHistoryName">0.0.1 – Prototype</h5>
-                <strong>Date:</strong>
-                <p class="gameHistoryDate paragraph-tab-half">02-Dec-2014</p>
-                <strong>Objectives:</strong>
-                <p class="gameHistoryObjective paragraph-tab-half">Recreate the same level of the original game with four players playable.</p>
-                <hr />
-            </div>
+        <div id="gameHistoryRowTemplate" class="section-p col-lg-4 col-md-6">
+            <h5 class="gameHistoryName">0.0.1 – Prototype</h5>
+            <strong>Date:</strong>
+            <p class="gameHistoryDate">02-Dec-2014</p>
+            <strong>Objectives:</strong>
+            <p class="gameHistoryObjective">Recreate the same level of the original game with four players playable.</p>
+            <hr />
         </div>
 
         <!-- Screenshot -->

@@ -104,7 +104,11 @@
 }
 
 .section-subhead {
-    font-size: 14px;
+    font-size: 1.4em;
+}
+
+.section-p {
+    font-size: 1.15em;
 }
 
 .paragraph-tab {

@@ -8,7 +8,7 @@ $(document).ready(function () {
 });
 
 function loadData() {
-    $.getJSON("https://gist.githubusercontent.com/brunobittarello/e7a3fabf7a6c2e72d13a69ef492fec11/raw/teste.json", function (json) {
+    $.getJSON("https://raw.githubusercontent.com/brunobittarello/brunobittarello.github.io/master/data/mainPage.json", function (json) {
         data = json;
         loadPage();
     });
@@ -79,8 +79,7 @@ function loadDetails(details) {
     if (details.onlinePlayerTotal != "undefined" && details.onlinePlayerTotal > 0)
         $("#gameOnlinePlayers").html(details.onlinePlayerTotal);
     else {
-        $("#gameOnlinePlayersLabel").remove();
-        $("#gameOnlinePlayers").remove();
+        $("#gameOnlinePlayers").parent().remove();
     }
 
     $("#gameLocalPlayers").html(details.localPlayerTotal);
