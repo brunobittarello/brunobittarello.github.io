@@ -253,18 +253,9 @@
       "date": "June 2021",
       "localPage": "",
       "externalPage": "https://bittarello.itch.io/elevator-builder",
-      "platforms": [
-        {
-          "name": "Iphone",
-          "link": "https://apps.apple.com/us/app/starlit-on-wheels-super-kart/id1352078840"
-        },
-        {
-          "name": "Android",
-          "link": "https://play.google.com/store/apps/details?id=com.rockhead.starlit.onwheels"
-        }
-      ],
-      "icon": "img/portfolio/starlitOnWheelsIcon.jpg",
-      "image": "img/portfolio/starlitOnWheels.png"
+      "platforms": [ { "name": "Web" } ],
+      "icon": "img/portfolio/elevatorBuilderIcon.png",
+      "image": "img/portfolio/elevatorBuilderScreen.png"
     }
   ],
 
@@ -277,16 +268,14 @@
       "externalPage": "https://bittarello.itch.io/escape-from-student-debt",
       "platforms": [
         {
-          "name": "Iphone",
-          "link": "https://apps.apple.com/us/app/starlit-on-wheels-super-kart/id1352078840"
+          "name": "Web"
         },
         {
-          "name": "Android",
-          "link": "https://play.google.com/store/apps/details?id=com.rockhead.starlit.onwheels"
+          "name": "Desktop"
         }
       ],
-      "icon": "img/portfolio/starlitOnWheelsIcon.jpg",
-      "image": "img/portfolio/starlitOnWheels.png"
+      "icon": "img/portfolio/escapeFromStudentDebtIcon.png",
+      "image": "img/portfolio/escapeFromStudentDebtBanner.png"
     },
     {
       "name": "Starlit On Wheels: Super Kart",
