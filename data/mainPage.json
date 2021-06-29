@@ -110,40 +110,6 @@
   ],
   "skillSections": [
     {
-      "name": "Programs",
-      "skills": [
-        {
-          "name": "Arduino",
-          "level": 3
-        },
-        {
-          "name": "Audacity",
-          "level": 4
-        },
-        {
-          "name": "Blender",
-          "level": 4
-        },
-        {
-          "name": "Photoshop",
-          "level": 4
-        },
-        {
-          "name": "Gimp",
-          "level": 3
-        },
-        {
-          "name": "Sony Vegas",
-          "level": 4
-        },
-        {
-          "name": "Unity",
-          "level": 5
-        }
-      ]
-    },
-
-    {
       "name": "Languages",
       "skills": [
         {
@@ -175,8 +141,58 @@
           "level": 5
         },
         {
+          "name": "Python",
+          "level": 4
+        },
+        {
           "name": "Visual Baisc",
           "level": 3
+        }
+      ]
+    },
+
+    {
+      "name": "Programs",
+      "skills": [
+        {
+          "name": "Arduino",
+          "level": 3
+        },
+        {
+          "name": "Audacity",
+          "level": 4
+        },
+        {
+          "name": "Automation Anywhere",
+          "level": 4
+        },
+        {
+          "name": "Blender",
+          "level": 4
+        },
+        {
+          "name": "Docker",
+          "level": 4
+        },
+        {
+          "name": "Photoshop",
+          "level": 3
+        },
+        {
+          "name": "Gimp",
+          "level": 3
+        },
+        {
+          "name": "Sony Vegas",
+          "level": 4
+        },
+        {
+          "name": "UI Path",
+          "level": 3
+        },
+        {
+          "name": "Unity",
+          "level": 5
         }
       ]
     },
@@ -199,6 +215,10 @@
         {
           "name": "GitHub",
           "level": 4
+        },
+        {
+          "name": "GitLab",
+          "level": 4
         }
       ]
     },
@@ -208,6 +228,10 @@
       "skills": [
         {
           "name": "MySql",
+          "level": 4
+        },
+        {
+          "name": "MongoDB",
           "level": 4
         },
         {
@@ -221,7 +245,49 @@
       ]
     }
   ],
+
+  "softwares": [
+    {
+      "name": "Elevator Builder",
+      "summary": "3D software that makes possible to customize elevators. Its is a showcase to demonstrate what I can do using Unity (or other development tool) to create tool to customize products. It could be done with cars, planes and others objects.",
+      "date": "June 2021",
+      "localPage": "",
+      "externalPage": "https://bittarello.itch.io/elevator-builder",
+      "platforms": [
+        {
+          "name": "Iphone",
+          "link": "https://apps.apple.com/us/app/starlit-on-wheels-super-kart/id1352078840"
+        },
+        {
+          "name": "Android",
+          "link": "https://play.google.com/store/apps/details?id=com.rockhead.starlit.onwheels"
+        }
+      ],
+      "icon": "img/portfolio/starlitOnWheelsIcon.jpg",
+      "image": "img/portfolio/starlitOnWheels.png"
+    }
+  ],
+
   "games": [
+    {
+      "name": "Escape From Student Debt",
+      "summary": "Puzzle game created during #PQJam21. You must help the protagonist pass all rooms after entering in a strange door, with a promisse of an usefull certification in the end.",
+      "date": "May 2021",
+      "localPage": "",
+      "externalPage": "https://bittarello.itch.io/escape-from-student-debt",
+      "platforms": [
+        {
+          "name": "Iphone",
+          "link": "https://apps.apple.com/us/app/starlit-on-wheels-super-kart/id1352078840"
+        },
+        {
+          "name": "Android",
+          "link": "https://play.google.com/store/apps/details?id=com.rockhead.starlit.onwheels"
+        }
+      ],
+      "icon": "img/portfolio/starlitOnWheelsIcon.jpg",
+      "image": "img/portfolio/starlitOnWheels.png"
+    },
     {
       "name": "Starlit On Wheels: Super Kart",
       "summary": "Welcome to the ride of your life with the heroes from Starlit Adventures: Bo and Kikki! Help Bo and Kikki on a thrilling chase to recover the stars that the villain Nuru has stolen to power his magical motor. During this exciting journey you'll confront breathtaking tracks and obstacles, and be challenged by enemies and creatures from the Starlit universe in championships full of fun and adventure. Along the way, you'll drive remarkable cars with special powers. While you enjoy this journey to save your friends, you'll upgrade your cars, collect rewards, assemble a trophy room and create your own tracks that other players can race and evaluate!",
@@ -563,7 +629,7 @@
             "title": "Stage",
             "description": "Original game stage.",
             "link": "img/screenshots/jump2.png"
-          }          
+          }
         ],
         "videos": [
           "https://www.youtube.com/embed/w2jwDkmjmhc"
