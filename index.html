@@ -70,11 +70,11 @@
                     <img src="img/portfolio/personal.png" class="img-fluid bio-icons" alt="">
                     <div>Bio</div>
                 </div>
-                <div class="col" style="cursor:pointer" onclick="onPersonalInfoClicked(1)">
+                <div class="col collapse" style="cursor:pointer" onclick="onPersonalInfoClicked(1)">
                     <img src="img/portfolio/education.png" class="img-fluid bio-icons" alt="">
                     <div>Edu</div>
                 </div>
-                <div class="col" style="cursor:pointer" onclick="onPersonalInfoClicked(2)">
+                <div class="col collapse" style="cursor:pointer" onclick="onPersonalInfoClicked(2)">
                     <img src="img/portfolio/professional.png" class="img-fluid bio-icons" alt="" title="Professional">
                     <div>Pro</div>
                 </div>
@@ -110,6 +110,19 @@
             </div>
 
             <div id="gamesContainer" class="row" />
+        </div>
+    </section>
+
+    <!-- Softwares Section -->
+    <section id="softwares" class="page-section portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center section-header">
+                    <h1>Softwares</h1>
+                </div>
+            </div>
+
+            <div id="softwaresContainer" class="row" />
         </div>
     </section>
 
@@ -168,10 +181,12 @@
                                     <p id="gameSummary">Game summary.</p>
 
                                     <ul class="list-inline item-details">
-                                        <li>Date:
-                                    <strong id="gameDate">November 2018</strong>
+                                        <li>
+                                            Date:
+                                            <strong id="gameDate">November 2018</strong>
                                         </li>
-                                        <li id="gamePlatform">Platform:
+                                        <li id="gamePlatform">
+                                            Platform:
                                         </li>
                                     </ul>
 

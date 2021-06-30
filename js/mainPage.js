@@ -14,6 +14,7 @@ function loadData() {
         data = json;
         //console.log(json);
         populateGames(data.games);
+        populateSoftwares(data.softwares);
         popualteSkillSelections(data.skillSections);
     });
 }
@@ -36,7 +37,7 @@ function onPersonalInfoClicked(id) {
 
 function loadPersonal(personal) {
     $("#infoTitle").text("Personal");
-    
+
     var html = "";
     html += createTitle("Objective");
     html += createText(personal.objective);
@@ -96,6 +97,23 @@ function createParagraphText(text) {
     return "<p class=\"text-justify paragraph-tab\">" + text + "</p>";
 }
 
+//Software Selection
+function populateSoftwares(softwares) {
+    var softwaresContainer = $("#softwaresContainer");
+    for (let i in softwares) {
+        softwaresContainer.append(createSoftwareIcon(i, softwares[i]));
+    }
+}
+
+function createSoftwareIcon(id, game) {
+    var html = $("#templGameIcon").clone();
+    html.removeAttr("id");
+    html.click(function () { onSofwareIconClicked(id); });
+    html.children(0).children(0).attr("src", game.icon);
+
+    return html;
+}
+
 //Games Selection
 function populateGames(games) {
     var gamesContainer = $("#gamesContainer");
@@ -114,8 +132,12 @@ function createGameIcon(id, game) {
 }
 
 //Game Info modal
-function onGameIconClicked(id) {
+function onSofwareIconClicked(id) {
+    populateGameInfo(data.softwares[id]);
+    $("#portfolioModal").modal();
+}
 
+function onGameIconClicked(id) {
     populateGameInfo(data.games[id]);
     $("#portfolioModal").modal();
 }
@@ -129,30 +151,38 @@ function populateGameInfo(game) {
     var contPlatforms = $("#gamePlatform");
     contPlatforms.empty();
     contPlatforms.text("Platforms: ");
-    for (const platform of game.platforms) {        
-        var hasLink = (platform.link !== "");
+    for (const platform of game.platforms) {
+        var hasLink = (platform.link != null && platform.link != "");
         var platformHtml = hasLink ? $("#templGamePlatformLink").clone() : $("#templGamePlatform").clone();//TODO find templates only one time
         platformHtml.appendTo(contPlatforms);
         if (hasLink) {
             platformHtml.attr("href", platform.link);
-            platformHtml.children(0).text(platform.name)
+            platformHtml.children(0).text(platform.name);
         }
-        else
-            platformHtml.text(platform.name)
+        else {
+            platformHtml.text(platform.name);
+            contPlatforms.append(" ");
+        }
         platformHtml.removeAttr("id");
     }
 
-    setGamePageButton(game.localPage)
+    if (game.externalPage)
+        setPageButton(game.externalPage, true);
+    else
+        setPageButton(game.localPage, false);
 }
 
-function setGamePageButton(localPage) {
+function setPageButton(link, external) {
     const gamePage = $("#gamePage");
-    if (localPage == "") {
+    if (link == "") {
         gamePage.addClass("d-none");
         return;
     }
     gamePage.removeClass("d-none");
-    gamePage.attr("href", "pages/games.html?" + localPage);
+    if (external)
+        gamePage.attr("href", link);
+    else
+        gamePage.attr("href", "pages/games.html?" + link);
 }
 
 //Skills
