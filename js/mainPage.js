@@ -2,11 +2,13 @@
 "use strict"; // Start of use strict
 
 var data;
-
+var spinner;
 
 $(document).ready(function () {
     console.log("ready!");
     loadData();
+    spinner = $("#portfolioModalSpinner");
+    $("#gameImage").on("load", onModalImageLoaded);
 });
 
 function loadData() {
@@ -145,6 +147,8 @@ function onGameIconClicked(id) {
 function populateGameInfo(game) {
     $("#gameTitle").text(game.name);
     $("#gameSummary").text(game.summary);
+    spinner.show();
+    $("#gameImage").hide();
     $("#gameImage").attr("src", game.image);
     $("#gameDate").text(game.date);
 
@@ -170,6 +174,11 @@ function populateGameInfo(game) {
         setPageButton(game.externalPage, true);
     else
         setPageButton(game.localPage, false);
+}
+
+function onModalImageLoaded() {
+    $(this).show();
+    spinner.hide();
 }
 
 function setPageButton(link, external) {
