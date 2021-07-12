@@ -256,6 +256,16 @@
       "platforms": [ { "name": "Web" } ],
       "icon": "img/portfolio/elevatorBuilderIcon.png",
       "image": "img/portfolio/elevatorBuilderScreen.png"
+    },
+    {
+      "name": "Marvel Character Information",
+      "summary": "Android application lists Marvel characters and some information.",
+      "date": "June 2019",
+      "localPage": "",
+      "externalPage": "https://github.com/brunobittarello/MarvelCharacterInfo",
+      "platforms": [ { "name": "Android" } ],
+      "icon": "https://github.com/brunobittarello/MarvelCharacterInfo/blob/main/Media/marvel-mobile-3.png",
+      "image": "https://github.com/brunobittarello/MarvelCharacterInfo/blob/main/Media/marvel-mobile-video.gif"
     }
   ],
 
