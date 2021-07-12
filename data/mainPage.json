@@ -264,7 +264,7 @@
       "localPage": "",
       "externalPage": "https://github.com/brunobittarello/MarvelCharacterInfo",
       "platforms": [ { "name": "Android" } ],
-      "icon": "https://raw.githubusercontent.com/brunobittarello/MarvelCharacterInfo/main/Media/marvel-mobile-3.png",
+      "icon": "img/portfolio/marvelChar-icon.png",
       "image": "https://raw.githubusercontent.com/brunobittarello/MarvelCharacterInfo/main/Media/marvel-mobile-video.gif"
     }
   ],
