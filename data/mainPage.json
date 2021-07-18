@@ -275,7 +275,7 @@
       "externalPage": "https://github.com/brunobittarello/WakeMeUpHere",
       "platforms": [ { "name": "Android" } ],
       "icon": "img/portfolio/wakemeuphere-icon.png",
-      "image": "https://raw.githubusercontent.com/brunobittarello/WakeMeUpHere/blob/master/Media/video.gif"
+      "image": "https://raw.githubusercontent.com/brunobittarello/WakeMeUpHere/master/Media/video.gif"
     }
   ],
 
