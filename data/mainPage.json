@@ -266,6 +266,16 @@
       "platforms": [ { "name": "Android" } ],
       "icon": "img/portfolio/marvelChar-icon.png",
       "image": "https://raw.githubusercontent.com/brunobittarello/MarvelCharacterInfo/main/Media/marvel-mobile-video.gif"
+    },
+    {
+      "name": "WakeMeUpHere",
+      "summary": "Have you ever missed the train station because you are sleepy or distracted? This Android app wants to help you with that. You can set positions on the map with radius, when you are in range the alarm will play.",
+      "date": "May 2018",
+      "localPage": "",
+      "externalPage": "https://github.com/brunobittarello/WakeMeUpHere",
+      "platforms": [ { "name": "Android" } ],
+      "icon": "img/portfolio/wakemeuphere-icon.png",
+      "image": "https://raw.githubusercontent.com/brunobittarello/WakeMeUpHere/blob/master/Media/video.gif"
     }
   ],
 
