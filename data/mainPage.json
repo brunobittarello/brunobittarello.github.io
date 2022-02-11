@@ -159,19 +159,33 @@
           "level": 3
         },
         {
-          "name": "Audacity",
-          "level": 4
-        },
-        {
           "name": "Automation Anywhere",
           "level": 4
         },
         {
-          "name": "Blender",
+          "name": "Docker",
           "level": 4
         },
         {
-          "name": "Docker",
+          "name": "UI Path",
+          "level": 3
+        },
+        {
+          "name": "Unity",
+          "level": 5
+        }
+      ]
+    },
+    
+    {
+      "name": "Media",
+      "skills": [
+        {
+          "name": "Audacity",
+          "level": 4
+        },
+        {
+          "name": "Blender",
           "level": 4
         },
         {
@@ -185,14 +199,6 @@
         {
           "name": "Sony Vegas",
           "level": 4
-        },
-        {
-          "name": "UI Path",
-          "level": 3
-        },
-        {
-          "name": "Unity",
-          "level": 5
         }
       ]
     },
@@ -214,7 +220,7 @@
         },
         {
           "name": "GitHub",
-          "level": 4
+          "level": 5
         },
         {
           "name": "GitLab",
@@ -468,7 +474,7 @@
       "platforms": [
         {
           "name": "Windows",
-          "link": ""
+          "link": "https://drive.google.com/file/d/0BywrL8k68fEPZGR2dF9DZzRyVGM/view?usp=sharing&resourcekey=0-c_wedpA8x05OkPm7XkCgGA"
         }
       ],
       "icon": "img/portfolio/sprawl.png",
@@ -654,7 +660,7 @@
       "platforms": [
         {
           "name": "Windows",
-          "link": ""
+          "link": "https://drive.google.com/file/d/17PEU1Bo1IxHMExc52FRM-OVh_JaAt8E3/view?usp=sharing"
         }
       ],
       "icon": "img/portfolio/galaga.png",
@@ -808,7 +814,7 @@
       "platforms": [
         {
           "name": "Windows",
-          "link": ""
+          "link": "https://drive.google.com/file/d/0BywrL8k68fEPY2FjbUdhaURnc1k/view?usp=sharing&resourcekey=0-FPJeulpKQ4Dv4bpQzxe-Cg"
         }
       ],
       "icon": "img/portfolio/bomber.jpg",
@@ -823,7 +829,7 @@
       "platforms": [
         {
           "name": "Windows",
-          "link": ""
+          "link": "https://drive.google.com/file/d/0BywrL8k68fEPVW9zT0paQ0RlaEU/view?usp=sharing&resourcekey=0-MfcHEylLctP3wCCg17dAHg"
         }
       ],
       "icon": "img/portfolio/warriors.png",
