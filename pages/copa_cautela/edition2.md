@@ -12,8 +12,16 @@ Local:
 <thead>
   <tr>
     <th colspan="5" align="center">Grupo 1</th>
+    <th></th>
+    <th colspan="5" align="center">Grupo 2</th>
   </tr>
   <tr>
+    <th>Jogador</th>
+    <th>Time</th>
+    <th>Placar</th>
+    <th>Time</th>
+    <th>Jogador</th>
+    <th></th>
     <th>Jogador</th>
     <th>Time</th>
     <th>Placar</th>
@@ -66,6 +74,8 @@ Local:
   </tr>
 
   <tr>
+    <th colspan="5" align="center">Returno</th>
+    <th></th>
     <th colspan="5" align="center">Returno</th>
   </tr>
 
