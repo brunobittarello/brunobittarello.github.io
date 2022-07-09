@@ -6,7 +6,7 @@ Jogo: Fifa 12
 Data:  
 Local:  
 
-## Resultados
+## Fase de grupos
 
 <table>
 <thead>
@@ -204,67 +204,47 @@ Local:
 </tbody>
 </table>
 
+
+## Mata-mata
+
 <table>
-    <tr>
-        <td>Gabriel</td>
-        <td>Fluminense</td>
-        <td>1</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Junico</td>
-        <td>Corinthians</td>
-        <td>0</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Gabriel</td>
-        <td>Fluminense</td>
-        <td>1</td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>Marcio</td>
-        <td>Flamengo</td>
-        <td>5</td>
-    </tr>
-    <tr>
-        <td>Bruno</td>
-        <td>Santos</td>
-        <td>1</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Marcio</td>
-        <td>Flamengo</td>
-        <td>5</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
+<tbody>
+  <tr>
+    <td colspan="11" align="center"><h3>Semifinais</h3></td>
+  </tr>
+  <tr>
+    <td><b>Gabirel</b></td>
+    <td><img alt="Fluminense" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/fluminense.svg" width="30" height="30"></td>
+    <td><b>1</b> x 0</td>
+    <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
+    <td>Junico</td>
+    <td />
+    <!-- Group 2 -->
+    <td>Bruno</td>
+    <td><img alt="Santos" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/santos.svg" width="30" height="30"></td>
+    <td>1 x <b>5</b></td>
+    <td><img alt="Flamengo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/flamengo.svg" width="30" height="30"></td>
+    <td><b>Márcio</b></td>
+  </tr>  
+  <tr>
+    <td colspan="11" align="center"><h3>Final</h3></td>
+  </tr>
+  <tr colspan="11" align="center">
+    <td colspan="11" align="center">
+      <table align="center">
+      <tbody>
+        <tr>
+          <td><b>Gabirel</b></td>
+          <td><img alt="Fluminense" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/fluminense.svg" width="30" height="30"></td>
+          <td><b>4</b> x 3</td>
+          <td><img alt="Flamengo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/flamengo.svg" width="30" height="30"></td>
+          <td><b>Márcio</b></td>
+        </tr>
+      </tbody>
+      </table>
+    </td>
+  </tr>
+</tbody>
 </table>
 
 ---------------------------------------------
