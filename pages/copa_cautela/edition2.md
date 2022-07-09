@@ -204,6 +204,69 @@ Local:
 </tbody>
 </table>
 
+<table>
+    <tr>
+        <td>Gabriel</td>
+        <td>Fluminense</td>
+        <td>1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Junico</td>
+        <td>Corinthians</td>
+        <td>0</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Gabriel</td>
+        <td>Fluminense</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Marcio</td>
+        <td>Flamengo</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Bruno</td>
+        <td>Santos</td>
+        <td>1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Marcio</td>
+        <td>Flamengo</td>
+        <td>5</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
 ---------------------------------------------
 
 
