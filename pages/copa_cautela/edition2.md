@@ -201,6 +201,133 @@ Local:
     <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
     <td>Junico</td>
   </tr>
+  <tr></tr>
+
+</tbody>
+</table>
+
+## Classificação
+
+<table>
+<thead>
+  <tr>
+    <th colspan="9" align="center">Grupo 1</th>
+  </tr>
+  <tr>
+    <th>Jogador</th>
+    <th>Time</th>
+    <th>Pts</th>
+    <th>V</th>
+    <th>E</th>
+    <th>D</th>
+    <th>GP</th>
+    <th>GC</th>
+    <th>GS</th>
+  </tr>
+</thead>
+<tbody align="center">
+  <tr>
+    <td>Gabriel</td>
+    <td><img alt="Fluminense" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/fluminense.svg" width="30" height="30"></td>
+    <td>13</td>
+    <td>4</td>
+    <td>1</td>
+    <td>1</td>
+    <td>17</td>
+    <td>7</td>
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Márcio</td>
+    <td><img alt="Flamengo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/flamengo.svg" width="30" height="30"></td>
+    <td>13</td>
+    <td>4</td>
+    <td>1</td>
+    <td>1</td>
+    <td>11</td>
+    <td>4</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>Rogério</td>
+    <td><img alt="São Paulo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sao-paulo.svg" width="30" height="30"></td>
+    <td>7</td>
+    <td>2</td>
+    <td>1</td>
+    <td>3</td>
+    <td>5</td>
+    <td>13</td>
+    <td>-8</td>
+  </tr>
+  <tr>
+    <td>Juliano</td>
+    <td><img alt="Internacional" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/internacional.svg" width="30" height="30"></td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>5</td>
+    <td>6</td>
+    <td>15</td>
+    <td>-9</td>
+  </tr>
+  <tr>
+    <th colspan="9" align="center">Grupo 2</th>
+  </tr>
+  <tr>
+    <th>Jogador</th>
+    <th>Time</th>
+    <th>Pts</th>
+    <th>V</th>
+    <th>E</th>
+    <th>D</th>
+    <th>GP</th>
+    <th>GC</th>
+    <th>GS</th>
+  </tr>
+  <tr>
+    <td>Bruno</td>
+    <td><img alt="Santos" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/santos.svg" width="30" height="30"></td>
+    <td>15</td>
+    <td>5</td>
+    <td>0</td>
+    <td>1</td>
+    <td>17</td>
+    <td>3</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>Junico</td>
+    <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
+    <td>8</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>4</td>
+    <td>5</td>
+    <td>-1</td>
+  </tr>
+  <tr>
+    <td>Neis</td>
+    <td><img alt="Botafogo" src="https://s.glbimg.com/es/sde/f/organizacoes/2019/02/04/botafogo-svg.svg" width="30" height="30"></td>
+    <td>6</td>
+    <td>1</td>
+    <td>3</td>
+    <td>2</td>
+    <td>1</td>
+    <td>9</td>
+    <td>-8</td>
+  </tr>
+  <tr>
+    <td>Bernard</td>
+    <td><img alt="Cruzeiro" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg" width="30" height="30"></td>
+    <td>3</td>
+    <td>0</td>
+    <td>3</td>
+    <td>3</td>
+    <td>2</td>
+    <td>7</td>
+    <td>-5</td>
+  </tr>
 </tbody>
 </table>
 
