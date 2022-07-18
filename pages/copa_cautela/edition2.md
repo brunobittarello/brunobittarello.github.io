@@ -3,8 +3,8 @@
 ## Setup
 
 Jogo: Fifa 12  
-Data:  
-Local:  
+Data: 02/05/2012  
+Local: Mansão dos Bittarellos  
 
 ## Fase de grupos
 
@@ -365,7 +365,7 @@ Local:
           <td><img alt="Fluminense" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/fluminense.svg" width="30" height="30"></td>
           <td><b>4</b> x 3</td>
           <td><img alt="Flamengo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/flamengo.svg" width="30" height="30"></td>
-          <td><b>Márcio</b></td>
+          <td>Márcio</td>
         </tr>
       </tbody>
       </table>
