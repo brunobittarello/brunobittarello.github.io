@@ -1,4 +1,4 @@
-# Copa Cautela: 2ª edição
+# Copa Cautela: 1ª edição
 
 ## Setup
 
@@ -294,9 +294,6 @@ Juliano teve que sair. No lugar dele foi posto o Rogério
 
 <table>
 <thead>
-  <tr>
-    <th colspan="9" align="center">Grupo 1</th>
-  </tr>
   <tr>
     <th>Jogador</th>
     <th>Time</th>
