@@ -59,13 +59,13 @@ Local: Mansão dos Bittarellos
   <tr>
     <td><b>Gabriel</b></td>
     <td><img alt="Fluminense" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/fluminense.svg" width="30" height="30"></td>
-    <td><b>1</b> x 0</td>
+    <td><a href="https://www.youtube.com/watch?v=s-CDy5vleRw"><b>1</b> x 0</a></td>
     <td><img alt="Flamengo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/flamengo.svg" width="30" height="30"></td>
     <td>Márcio</td>
     <td />
     <td><b>Junico</b></td>
     <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
-    <td><b>2</b> x 1</td>
+    <td><a href="https://www.youtube.com/watch?v=hlElp-gBMRI"><b>2</b> x 1</a></td>
     <td><img alt="Santos" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/santos.svg" width="30" height="30"></td>
     <td>Bruno</td>
   </tr>
