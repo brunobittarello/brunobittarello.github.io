@@ -379,4 +379,16 @@ Local: Mansão dos Bittarellos
 
 ## Midia
 
+<a href="https://www.youtube.com/watch?v=q7sRJg6MN0I&list=PLHqZrmNI-7VaCvSd4gRcu3O89ZdVDT-w_">Playlist</a> com melhores momentos  
+
+<a href="https://www.youtube.com/watch?v=oIbAaZeB8cQ&list=PLHqZrmNI-7VbcTdmbHPuB9_am8t_UUyG_">Playlist</a> com jogos completos  
+ 
+
+Bastidores  
+<div align="left">
+      <a href="https://www.youtube.com/watch?v=UV809dUNfQs">
+         <img src="https://i9.ytimg.com/vi/UV809dUNfQs/default.jpg?sqp=CICIppgG&rs=AOn4CLBapW1sel93b9jC_c8o1OwVvfVzUQ">
+      </a>
+</div>
+
 ![alt text](src/edition2/edition2-results.jpg "Resultados")
