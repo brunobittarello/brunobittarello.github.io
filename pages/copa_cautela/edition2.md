@@ -387,7 +387,7 @@ Local: Mansão dos Bittarellos
 Bastidores  
 <div align="left">
       <a href="https://www.youtube.com/watch?v=UV809dUNfQs">
-         <img src="https://i9.ytimg.com/vi/UV809dUNfQs/default.jpg?sqp=CICIppgG&rs=AOn4CLBapW1sel93b9jC_c8o1OwVvfVzUQ">
+         <img src="https://yt-embed.herokuapp.com/embed?v=UV809dUNfQs">
       </a>
 </div>
 
