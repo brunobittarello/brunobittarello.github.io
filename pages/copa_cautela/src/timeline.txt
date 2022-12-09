@@ -1,0 +1,74 @@
+===Timeline===
+{{#tag:timeline|
+ImageSize  = width:1000 height:auto barincrement:20
+PlotArea   = left:100 bottom:100 top:10 right:10
+Alignbars  = justify
+DateFormat = dd/mm/yyyy
+Period     = from:2012 till:{{#time:d/m/Y}}
+TimeAxis   = orientation:horizontal format:yyyy
+Legend     = orientation:vertical position:bottom columns:2
+ScaleMajor = increment:1 start:2012
+ScaleMinor = unit:month increment:4 start:2012
+
+Colors =
+ id:cerne    value:purple      legend:Cernes
+ id:rondon   value:blue        legend:Rondoners
+ id:studio   value:black       legend:Copa_Cautela
+ id:EP       value:gray(0.6)   legend:Euro_Cautela
+ id:bars     value:gray(0.95)
+
+BackgroundColors = bars:bars
+
+LineData =
+ layer:back color:studio
+   at:16/03/2012
+   at:02/05/2012
+   at:09/12/2012
+   at:28/04/2013
+   at:18/08/2013
+   at:07/03/2022
+ color:EP
+   at:15/07/2012
+
+BarData =
+ bar:Bruno       text:Bruno
+ bar:Marcio      text:Márcio
+ bar:Juliano     text:Juliano
+ bar:Junico      text:Junico
+ bar:Rogerio     text:Rogério
+ bar:Bernard     text:Bernard
+ bar:Neis        text:Neis
+ bar:Gabriel     text:Gabriel
+ #bar:Cassiano   text:Cassiano
+ bar:M.Stein     text:M.Stein
+ bar:Tiago       text:Tiago
+ bar:Talita      text:Primo da Talita
+ bar:Rafael      text:Rafael
+ bar:GuiAdd      text:Guilherme Add
+
+PlotData =
+ width:13
+
+ color:rondon
+   bar:Bruno     from:start      till:01/01/2014
+   bar:Bruno     from:01/01/2022 till:end
+   bar:Bernard   from:start      till:15/05/2013
+   bar:Bernard   from:01/01/2022 till:end
+   bar:Neis      from:01/05/2012 till:15/12/2012
+   bar:Neis      from:01/01/2022 till:end
+   bar:M.Stein   from:01/07/2012 till:30/07/2012
+   bar:Gabriel   from:01/05/2012 till:15/12/2012
+   bar:Rafael    from:01/01/2022 till:end
+   bar:GuiAdd    from:01/01/2022 till:end
+
+ color:cerne
+   bar:Marcio    from:start      till:01/01/2014
+   bar:Marcio    from:01/01/2022 till:end
+   bar:Juliano   from:start      till:01/01/2014
+   bar:Juliano   from:01/01/2022 till:end
+   bar:Junico    from:start      till:01/01/2014
+   bar:Junico    from:01/01/2022 till:end
+   bar:Rogerio   from:start      till:01/01/2014
+   bar:Talita    from:01/08/2013 till:01/01/2014
+   bar:Tiago     from:01/12/2012 till:01/01/2014
+}}

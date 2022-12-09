@@ -83,7 +83,7 @@ Local: Mansão dos Bittarellos
     <td>Bernard</td>
   </tr>
   <tr>
-    <td color="red">Rogério</td>
+    <td>Rogério</td>
     <td><img alt="São Paulo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sao-paulo.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=nJZcmv1L__0">0 x <b>2</b></a></td>
     <td><img alt="Flamengo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/flamengo.svg" width="30" height="30"></td>
@@ -118,9 +118,9 @@ Local: Mansão dos Bittarellos
   </tr>
 
   <tr>
-    <td><b>Gabriel<b></td>
+    <td><b>Gabriel</b></td>
     <td><img alt="Fluminense" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/fluminense.svg" width="30" height="30"></td>
-    <td><a href="https://www.youtube.com/watch?v=41ZVpvrPclc"<b>7</b> x 0</a></td>
+    <td><a href="https://www.youtube.com/watch?v=41ZVpvrPclc"><b>7</b> x 0</a></td>
     <td><img alt="São Paulo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sao-paulo.svg" width="30" height="30"></td>
     <td>Rogério</td>
     <td />
@@ -387,8 +387,19 @@ Local: Mansão dos Bittarellos
 Bastidores  
 <div align="left">
       <a href="https://www.youtube.com/watch?v=UV809dUNfQs">
-         <img src="https://yt-embed.herokuapp.com/embed?v=UV809dUNfQs">
+         <img src="https://i1.ytimg.com/vi/UV809dUNfQs/hqdefault.jpg">
       </a>
 </div>
 
 ![alt text](src/edition2/edition2-results.jpg "Resultados")
+![Alt text](src/edition2/edition2-results-details.jpg)
+![Alt text](src/edition2/277991_398676623514403_1848813564_o.jpg)
+![Alt text](src/edition2/339442_398676146847784_731599450_o.jpg)
+![Alt text](src/edition2/412453_398676076847791_88978876_o.jpg)
+![Alt text](src/edition2/413289_398676126847786_1971593603_o.jpg)
+![Alt text](src/edition2/469382_398676516847747_1889778441_o.jpg)
+![Alt text](src/edition2/471144_398676240181108_1429722339_o.jpg)
+![Alt text](src/edition2/266078_398676340181098_720296427_o.jpg)
+![Alt text](src/edition2/473708_398676466847752_1755132937_o.jpg)
+![Alt text](src/edition2/324069_398676410181091_1594803954_o.jpg)
+
