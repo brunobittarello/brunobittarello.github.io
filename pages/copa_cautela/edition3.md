@@ -55,7 +55,7 @@ Local: Casa do Bruno
     <td />
     <td><b>Neis<b></td>
     <td><img alt="Atlético MG" src="https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg" width="30" height="30"></td>
-    <td><a href="https://www.youtube.com/watch?v=CRgVRwFJkao"><b>4</b> x 0</a></td>
+    <td><a href="https://www.youtube.com/watch?v=CRgVRwFJkao">1 x <b>3</b></a></td>
     <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
     <td>Gabriel</td>
   </tr>
@@ -68,7 +68,7 @@ Local: Casa do Bruno
     <td />
     <td><b>Junico</b></td>
     <td><img alt="Cruzeiro" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg" width="30" height="30"></td>
-    <td><a href="https://www.youtube.com/watch?v=hlElp-gBMRI"><b>2</b> x 1</a></td>
+    <td><a href="https://www.youtube.com/watch?v=hlElp-gBMRI"><b>2</b> x 0</a></td>
     <td><img alt="Internacional" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/internacional.svg" width="30" height="30"></td>
     <td>Bruno</td>
   </tr>
