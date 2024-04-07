@@ -40,6 +40,7 @@ Local: Casa do Bruno
     <td><img alt="Flamengo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/flamengo.svg" width="30" height="30"></td>
     <td>Márcio</td>
     <td></td>
+    <!-- Group 2 -->
     <td>Bernard</td>
     <td><img alt="Palmeiras" src="https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x <b>3</b></a></td>
@@ -53,6 +54,7 @@ Local: Casa do Bruno
     <td><img alt="São Paulo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sao-paulo.svg" width="30" height="30"></td>
     <td>Rogério</td>
     <td />
+    <!-- Group 2 -->
     <td><b>Neis<b></td>
     <td><img alt="Atlético MG" src="https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=CRgVRwFJkao">1 x <b>3</b></a></td>
@@ -66,6 +68,7 @@ Local: Casa do Bruno
     <td><img alt="Santos" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/santos.svg" width="30" height="30"></td>
     <td>Márcio</td>
     <td />
+    <!-- Group 2 -->
     <td><b>Junico</b></td>
     <td><img alt="Cruzeiro" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=hlElp-gBMRI"><b>2</b> x 0</a></td>
@@ -95,10 +98,10 @@ Local: Casa do Bruno
     <td />
     <!-- Group 2 -->
     <td>XXXX</td>
-    <td><img alt="Internacional" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/internacional.svg" width="30" height="30"></td>
-    <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x 0</a></td>
-    <td><img alt="Atlético MG" src="https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg" width="30" height="30"></td>
-    <td>XXXX</td>
+    <td><img alt="Cruzeiro" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg" width="30" height="30"></td>
+    <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x <b>2</b></a></td>
+    <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
+    <td><b>Gabriel</b></td>
   </tr>
   <tr>
     <td>Bruno</td>
@@ -109,8 +112,17 @@ Local: Casa do Bruno
     <td />
     <!-- Group 2 -->
     <td>XXXX</td>
-    <td><img alt="Cruzeiro" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg" width="30" height="30"></td>
-    <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x <b>2</b></a></td>
+    <td><img alt="Internacional" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/internacional.svg" width="30" height="30"></td>
+    <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x 0</a></td>
+    <td><img alt="Atlético MG" src="https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg" width="30" height="30"></td>
+    <td>XXXX</td>
+  </tr>
+  <tr>
+    <td colspan="6"></td>
+    <!-- Group 2 -->
+    <td>XXXX</td>
+    <td><img alt="Palmeiras" src="https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg" width="30" height="30"></td>
+    <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x <b>4</b></a></td>
     <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
     <td><b>Gabriel</b></td>
   </tr>
@@ -141,17 +153,6 @@ Local: Casa do Bruno
     <td><img alt="Cruzeiro" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg" width="30" height="30"></td>
     <td><b>Bernard</b></td>
   </tr>
-  <tr>
-    <td colspan="6"></td>
-    <!-- Group 2 -->
-    <td>XXXX</td>
-    <td><img alt="Palmeiras" src="https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg" width="30" height="30"></td>
-    <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x <b>4</b></a></td>
-    <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
-    <td><b>Gabriel</b></td>
-  </tr>
-
-  
 
 </tbody>
 </table>
