@@ -1,4 +1,4 @@
-# Copa Cautela: 2ª edição
+# Copa Cautela: 3ª edição
 
 ## Setup
 
@@ -34,28 +34,28 @@ Local: Casa do Bruno
     <th colspan="11" align="center">Rodada</th>
   </tr>
   <tr>
-    <td>Junico</td>
+    <td>Rogério</td>
     <td><img alt="Santos" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/santos.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=CXh4Dzlkcvo">1 x 1</a></td>
     <td><img alt="Flamengo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/flamengo.svg" width="30" height="30"></td>
     <td>Márcio</td>
     <td></td>
     <!-- Group 2 -->
-    <td>Bernard</td>
+    <td>Tiago</td>
     <td><img alt="Palmeiras" src="https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x <b>3</b></a></td>
     <td><img alt="Internacional" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/internacional.svg" width="30" height="30"></td>
-    <td><b>Bernard</b></td>
+    <td><b>Cassiano</b></td>
   </tr>
   <tr>
     <td><b>Bruno<b></td>
     <td><img alt="Fluminense" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/fluminense.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=wdS1JyAQ4Is"><b>2</b> x 0</a></td>
     <td><img alt="São Paulo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sao-paulo.svg" width="30" height="30"></td>
-    <td>Rogério</td>
+    <td>Juliano</td>
     <td />
     <!-- Group 2 -->
-    <td><b>Neis<b></td>
+    <td><b>Junico<b></td>
     <td><img alt="Atlético MG" src="https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=CRgVRwFJkao">1 x <b>3</b></a></td>
     <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
@@ -66,38 +66,38 @@ Local: Casa do Bruno
     <td><img alt="Fluminense" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/fluminense.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=s-CDy5vleRw">2 x 2</a></td>
     <td><img alt="Santos" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/santos.svg" width="30" height="30"></td>
-    <td>Márcio</td>
+    <td>Rogério</td>
     <td />
     <!-- Group 2 -->
-    <td><b>Junico</b></td>
+    <td><b>Bernard</b></td>
     <td><img alt="Cruzeiro" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=hlElp-gBMRI"><b>2</b> x 0</a></td>
     <td><img alt="Internacional" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/internacional.svg" width="30" height="30"></td>
-    <td>Bruno</td>
+    <td>Cassiano</td>
   </tr>
   <tr>
-    <td>Rogério</td>
+    <td>Juliano</td>
     <td><img alt="São Paulo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sao-paulo.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=nJZcmv1L__0">0 x <b>2</b></a></td>
     <td><img alt="Flamengo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/flamengo.svg" width="30" height="30"></td>
     <td><b>Márcio</b></td>
     <td />
     <!-- Group 2 -->
-    <td>XXXX</td>
+    <td>Tiago</td>
     <td><img alt="Palmeiras" src="https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">1 x 1</a></td>
     <td><img alt="Atlético MG" src="https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg" width="30" height="30"></td>
-    <td>XXXX</td>
+    <td>Junico</td>
   </tr>
   <tr>
-    <td><b>Rogério</b></td>
+    <td><b>Juliano</b></td>
     <td><img alt="São Paulo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sao-paulo.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=nJZcmv1L__0"><b>3</b> x 0</a></td>
     <td><img alt="Santos" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/santos.svg" width="30" height="30"></td>
-    <td>Junico</td>
+    <td>Rogério</td>
     <td />
     <!-- Group 2 -->
-    <td>XXXX</td>
+    <td>Bernard</td>
     <td><img alt="Cruzeiro" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x <b>2</b></a></td>
     <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
@@ -111,16 +111,16 @@ Local: Casa do Bruno
     <td>Márcio</td>
     <td />
     <!-- Group 2 -->
-    <td>XXXX</td>
+    <td>Cassiano</td>
     <td><img alt="Internacional" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/internacional.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x 0</a></td>
     <td><img alt="Atlético MG" src="https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg" width="30" height="30"></td>
-    <td>XXXX</td>
+    <td>Junico</td>
   </tr>
   <tr>
     <td colspan="6"></td>
     <!-- Group 2 -->
-    <td>XXXX</td>
+    <td>Tiago</td>
     <td><img alt="Palmeiras" src="https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x <b>4</b></a></td>
     <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
@@ -129,7 +129,7 @@ Local: Casa do Bruno
   <tr>
     <td colspan="6"></td>
     <!-- Group 2 -->
-    <td>XXXX</td>
+    <td>Junico</td>
     <td><img alt="Atlético MG" src="https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x <b>1</b></a></td>
     <td><img alt="Cruzeiro" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg" width="30" height="30"></td>
@@ -142,12 +142,12 @@ Local: Casa do Bruno
     <td><img alt="Corinthians" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/corinthians.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A"><b>2</b> x 0</a></td>
     <td><img alt="Internacional" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/internacional.svg" width="30" height="30"></td>
-    <td>xxxxx</td>
+    <td>Cassiano</td>
   </tr>
   <tr>
     <td colspan="6"></td>
     <!-- Group 2 -->
-    <td>XXXX</td>
+    <td>Tiago</td>
     <td><img alt="Palmeiras" src="https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg" width="30" height="30"></td>
     <td><a href="https://www.youtube.com/watch?v=zGO26JN7N5A">0 x <b>2</b></a></td>
     <td><img alt="Cruzeiro" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg" width="30" height="30"></td>
@@ -200,7 +200,7 @@ Local: Casa do Bruno
     <td>x</td>
   </tr>
   <tr>
-    <td>Rogério</td>
+    <td>Juliano</td>
     <td><img alt="São Paulo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sao-paulo.svg" width="30" height="30"></td>
     <td>4</td>
     <td>1</td>
@@ -211,7 +211,7 @@ Local: Casa do Bruno
     <td>x</td>
   </tr>
   <tr>
-    <td>Junico</td>
+    <td>Rogério</td>
     <td><img alt="Santos" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/12/santos.svg" width="30" height="30"></td>
     <td>2</td>
     <td>0</td>
@@ -269,7 +269,7 @@ Local: Casa do Bruno
     <td>x</td>
   </tr>
   <tr>
-    <td>Neis</td>
+    <td>Junico</td>
     <td><img alt="Atlético MG" src="https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg" width="30" height="30"></td>
     <td>2</td>
     <td>0</td>
