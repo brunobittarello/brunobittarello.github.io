@@ -202,10 +202,10 @@ Local: Casa do Bruno
   <tr>
     <td>Juliano</td>
     <td><img alt="São Paulo" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/sao-paulo.svg" width="30" height="30"></td>
-    <td>4</td>
+    <td>3</td>
     <td>1</td>
-    <td>1</td>
-    <td>1</td>
+    <td>0</td>
+    <td>2</td>
     <td>3</td>
     <td>4</td>
     <td>-1</td>
