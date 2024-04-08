@@ -249,10 +249,10 @@ Local: Casa do Bruno
   <tr>
     <td>Bernard</td>
     <td><img alt="Cruzeiro" src="https://s.glbimg.com/es/sde/f/organizacoes/2018/03/11/cruzeiro.svg" width="30" height="30"></td>
-    <td>6</td>
-    <td>2</td>
+    <td>9</td>
+    <td>3</td>
     <td>0</td>
-    <td>2</td>
+    <td>1</td>
     <td>5</td>
     <td>2</td>
     <td>3</td>
