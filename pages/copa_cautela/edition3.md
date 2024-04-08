@@ -184,9 +184,9 @@ Local: Casa do Bruno
     <td>1</td>
     <td>2</td>
     <td>0</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
+    <td>5</td>
+    <td>3</td>
+    <td>2</td>
   </tr>
   <tr>
     <td>Márcio</td>
@@ -195,9 +195,9 @@ Local: Casa do Bruno
     <td>1</td>
     <td>2</td>
     <td>0</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
+    <td>4</td>
+    <td>2</td>
+    <td>2</td>
   </tr>
   <tr>
     <td>Juliano</td>
@@ -206,9 +206,9 @@ Local: Casa do Bruno
     <td>1</td>
     <td>1</td>
     <td>1</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
+    <td>3</td>
+    <td>4</td>
+    <td>-1</td>
   </tr>
   <tr>
     <td>Rogério</td>
@@ -217,9 +217,9 @@ Local: Casa do Bruno
     <td>0</td>
     <td>2</td>
     <td>1</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
+    <td>3</td>
+    <td>6</td>
+    <td>-3</td>
   </tr>
   <tr>
     <th colspan="9" align="center">Grupo 2</th>
@@ -242,9 +242,9 @@ Local: Casa do Bruno
     <td>4</td>
     <td>0</td>
     <td>0</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
+    <td>11</td>
+    <td>1</td>
+    <td>10</td>
   </tr>
   <tr>
     <td>Bernard</td>
@@ -253,9 +253,9 @@ Local: Casa do Bruno
     <td>2</td>
     <td>0</td>
     <td>2</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
+    <td>5</td>
+    <td>2</td>
+    <td>3</td>
   </tr>
   <tr>
     <td>Cassiano</td>
@@ -264,9 +264,9 @@ Local: Casa do Bruno
     <td>1</td>
     <td>1</td>
     <td>2</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
+    <td>3</td>
+    <td>4</td>
+    <td>-1</td>
   </tr>
   <tr>
     <td>Junico</td>
@@ -275,9 +275,9 @@ Local: Casa do Bruno
     <td>0</td>
     <td>2</td>
     <td>2</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
+    <td>2</td>
+    <td>5</td>
+    <td>-3</td>
   </tr>
   <tr>
     <td>Tiago</td>
@@ -286,9 +286,9 @@ Local: Casa do Bruno
     <td>0</td>
     <td>1</td>
     <td>3</td>
-    <td>x</td>
-    <td>x</td>
-    <td>x</td>
+    <td>1</td>
+    <td>10</td>
+    <td>-9</td>
   </tr>
 </tbody>
 </table>
